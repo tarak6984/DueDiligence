@@ -3,9 +3,10 @@ import ProjectList from './components/ProjectList';
 import ProjectDetail from './components/ProjectDetail';
 import DocumentManager from './components/DocumentManager';
 import CreateProject from './components/CreateProject';
+import ChatInterface from './components/ChatInterface';
 import { Project } from './services/api';
 
-type View = 'projects' | 'documents';
+type View = 'projects' | 'documents' | 'chat';
 
 export default function App() {
   const [view, setView] = useState<View>('projects');
@@ -111,6 +112,23 @@ export default function App() {
             >
               📄 Documents
             </button>
+            <button
+              onClick={() => { setView('chat'); setSelectedProject(null); }}
+              style={{
+                padding: '10px 24px',
+                backgroundColor: view === 'chat' ? 'rgba(255, 255, 255, 1)' : 'rgba(255, 255, 255, 0.1)',
+                color: view === 'chat' ? 'var(--primary-700)' : '#fff',
+                border: 'none',
+                borderRadius: 'var(--radius-md)',
+                cursor: 'pointer',
+                fontWeight: 600,
+                fontSize: '15px',
+                backdropFilter: 'blur(10px)',
+                transition: 'all var(--transition-base)',
+              }}
+            >
+              💬 Chat
+            </button>
           </nav>
         </div>
       </header>
@@ -159,6 +177,20 @@ export default function App() {
         
         {view === 'documents' && (
           <DocumentManager key={refreshKey} />
+        )}
+
+        {view === 'chat' && (
+          <div>
+            <div style={{ marginBottom: '32px' }}>
+              <h2 style={{ fontSize: '28px', fontWeight: 700, color: 'var(--gray-900)', marginBottom: '8px' }}>
+                Document Chat
+              </h2>
+              <p style={{ color: 'var(--gray-600)', fontSize: '15px' }}>
+                Ask questions about your indexed documents
+              </p>
+            </div>
+            <ChatInterface />
+          </div>
         )}
       </main>
 
