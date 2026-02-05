@@ -178,6 +178,30 @@ class ProjectService:
             "answered_questions": project.answered_questions,
             "status_breakdown": status_counts
         }
+    
+    def delete_project(self, project_id: str) -> None:
+        """Delete a project and all its associated data (sections, questions, answers)."""
+        project = self.get_project(project_id)
+        if not project:
+            raise ValueError(f"Project not found: {project_id}")
+        
+        # Delete all answers for this project
+        answers = self.db.find("answers", {"project_id": project_id})
+        for answer in answers:
+            self.db.delete("answers", answer["id"])
+        
+        # Delete all questions for this project
+        questions = self.db.find("questions", {"project_id": project_id})
+        for question in questions:
+            self.db.delete("questions", question["id"])
+        
+        # Delete all sections for this project
+        sections = self.db.find("sections", {"project_id": project_id})
+        for section in sections:
+            self.db.delete("sections", section["id"])
+        
+        # Delete the project itself
+        self.db.delete("projects", project_id)
 
 
 # Global service instance

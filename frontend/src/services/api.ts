@@ -151,6 +151,13 @@ class ApiClient {
     return response.json();
   }
 
+  async deleteProject(projectId: string): Promise<{ message: string }> {
+    const response = await fetch(`${this.baseUrl}/projects/delete/${projectId}`, {
+      method: 'DELETE',
+    });
+    return response.json();
+  }
+
   // Answers
   async generateSingleAnswer(questionId: string): Promise<Answer> {
     const response = await fetch(`${this.baseUrl}/answers/generate-single-answer/${questionId}`, {
@@ -228,6 +235,10 @@ class ApiClient {
       method: 'DELETE',
     });
     return response.json();
+  }
+
+  getDocumentDownloadUrl(documentId: string): string {
+    return `${this.baseUrl}/documents/download/${documentId}`;
   }
 
   // Requests

@@ -118,3 +118,17 @@ async def update_project_async(project_id: str, request: UpdateProjectRequest):
         }
     except Exception as e:
         raise HTTPException(status_code=400, detail=str(e))
+
+
+@router.delete("/delete/{project_id}")
+async def delete_project(project_id: str):
+    """Delete a project and all its associated data."""
+    try:
+        project_service.delete_project(project_id)
+        return {
+            "message": f"Project {project_id} deleted successfully"
+        }
+    except ValueError as e:
+        raise HTTPException(status_code=404, detail=str(e))
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=str(e))

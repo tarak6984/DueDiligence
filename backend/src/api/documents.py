@@ -1,8 +1,10 @@
 """Document API endpoints."""
 
 from fastapi import APIRouter, HTTPException, UploadFile, File
+from fastapi.responses import FileResponse
 from pydantic import BaseModel
 from typing import Optional
+import os
 from ..models import Document
 from ..services.document_service import document_service
 from ..indexing.indexer import document_indexer
@@ -93,6 +95,49 @@ async def delete_document(document_id: str):
         if not success:
             raise HTTPException(status_code=404, detail="Document not found")
         return {"message": "Document deleted successfully"}
+    except HTTPException:
+        raise
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=str(e))
+
+
+@router.get("/download/{document_id}")
+async def download_document(document_id: str):
+    """Download or view a document file."""
+    try:
+        document = document_service.get_document(document_id)
+        if not document:
+            raise HTTPException(status_code=404, detail="Document not found")
+        
+        # Check if file exists
+        if not os.path.exists(document.file_path):
+            raise HTTPException(status_code=404, detail="Document file not found on disk")
+        
+        # Determine media type based on file extension
+        file_ext = document.name.lower().split('.')[-1]
+        media_type_map = {
+            'pdf': 'application/pdf',
+            'docx': 'application/vnd.openxmlformats-officedocument.wordprocessingml.document',
+            'doc': 'application/msword',
+            'xlsx': 'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet',
+            'xls': 'application/vnd.ms-excel',
+            'pptx': 'application/vnd.openxmlformats-officedocument.presentationml.presentation',
+            'ppt': 'application/vnd.ms-powerpoint',
+        }
+        media_type = media_type_map.get(file_ext, 'application/octet-stream')
+        
+        # Return the file with appropriate headers
+        # For PDFs, use inline disposition so browser displays them
+        headers = {}
+        if file_ext == 'pdf':
+            headers['Content-Disposition'] = f'inline; filename="{document.name}"'
+        
+        return FileResponse(
+            path=document.file_path,
+            filename=document.name,
+            media_type=media_type,
+            headers=headers
+        )
     except HTTPException:
         raise
     except Exception as e:
