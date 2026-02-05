@@ -4,6 +4,19 @@
 
 The Questionnaire Agent is a full-stack application that automates the process of answering due diligence questionnaires using indexed document corpus with AI-powered answer generation, citation tracking, and evaluation capabilities.
 
+## Screenshots
+
+For visual reference of the application UI and workflows, see the [screenshots](../screenshots) directory.
+
+| Projects Dashboard | Project Detail | Document Manager |
+|:-----------------:|:--------------:|:----------------:|
+| ![Projects](../screenshots/project-list.png) | ![Detail](../screenshots/project-detail.png) | ![Documents](../screenshots/document-manager.png) |
+| Main dashboard with all projects | Sections and answers view | Document upload and management |
+
+*Additional screenshots available in the [screenshots folder](../screenshots/README.md).*
+
+---
+
 ## High-Level Architecture
 
 ```
