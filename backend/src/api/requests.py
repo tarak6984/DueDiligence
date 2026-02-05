@@ -13,7 +13,7 @@ async def get_request_status(request_id: str):
         request = request_tracker.get_request(request_id)
         if not request:
             raise HTTPException(status_code=404, detail="Request not found")
-        return request.dict()
+        return request.model_dump()
     except HTTPException:
         raise
     except Exception as e:

@@ -27,7 +27,7 @@ async def evaluate_answer(request: EvaluateAnswerRequest):
             request.question_id,
             request.human_answer
         )
-        return result.dict()
+        return result.model_dump()
     except ValueError as e:
         raise HTTPException(status_code=404, detail=str(e))
     except Exception as e:
@@ -43,7 +43,7 @@ async def evaluate_project(project_id: str, request: EvaluateProjectRequest):
             request.human_answers
         )
         return {
-            "results": [r.dict() for r in results],
+            "results": [r.model_dump() for r in results],
             "total": len(results)
         }
     except Exception as e:

@@ -3,7 +3,7 @@
 from enum import Enum
 from typing import Optional, List
 from pydantic import BaseModel, Field
-from datetime import datetime
+from datetime import datetime, timezone
 
 
 class AnswerStatus(str, Enum):
@@ -49,8 +49,8 @@ class Answer(BaseModel):
     manual_answer: Optional[str] = Field(default=None, description="Manually entered/edited answer")
     review_notes: Optional[str] = Field(default=None, description="Reviewer notes")
     
-    created_at: datetime = Field(default_factory=datetime.utcnow)
-    updated_at: datetime = Field(default_factory=datetime.utcnow)
+    created_at: datetime = Field(default_factory=lambda: datetime.now(timezone.utc))
+    updated_at: datetime = Field(default_factory=lambda: datetime.now(timezone.utc))
 
     class Config:
         json_schema_extra = {

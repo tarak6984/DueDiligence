@@ -22,7 +22,7 @@ async def generate_single_answer(question_id: str):
     """Generate answer for a single question."""
     try:
         answer = answer_service.generate_answer(question_id)
-        return answer.dict()
+        return answer.model_dump()
     except ValueError as e:
         raise HTTPException(status_code=404, detail=str(e))
     except Exception as e:
@@ -62,7 +62,7 @@ async def update_answer(answer_id: str, request: UpdateAnswerRequest):
             request.manual_answer,
             request.review_notes
         )
-        return answer.dict()
+        return answer.model_dump()
     except ValueError as e:
         raise HTTPException(status_code=404, detail=str(e))
     except Exception as e:
@@ -76,7 +76,7 @@ async def get_answer(answer_id: str):
         answer = answer_service.get_answer(answer_id)
         if not answer:
             raise HTTPException(status_code=404, detail="Answer not found")
-        return answer.dict()
+        return answer.model_dump()
     except HTTPException:
         raise
     except Exception as e:
@@ -89,7 +89,7 @@ async def list_answers(project_id: str):
     try:
         answers = answer_service.get_answers_for_project(project_id)
         return {
-            "answers": [a.dict() for a in answers],
+            "answers": [a.model_dump() for a in answers],
             "total": len(answers)
         }
     except Exception as e:

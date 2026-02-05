@@ -3,7 +3,7 @@
 from enum import Enum
 from typing import Optional
 from pydantic import BaseModel, Field
-from datetime import datetime
+from datetime import datetime, timezone
 
 
 class IndexingStatus(str, Enum):
@@ -23,7 +23,7 @@ class Document(BaseModel):
     file_path: str = Field(..., description="Storage path")
     indexing_status: IndexingStatus = Field(default=IndexingStatus.PENDING)
     is_questionnaire: bool = Field(default=False, description="Whether this is a questionnaire document")
-    uploaded_at: datetime = Field(default_factory=datetime.utcnow)
+    uploaded_at: datetime = Field(default_factory=lambda: datetime.now(timezone.utc))
     indexed_at: Optional[datetime] = Field(default=None)
     error_message: Optional[str] = Field(default=None)
 

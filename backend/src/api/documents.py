@@ -21,7 +21,7 @@ async def upload_document(file: UploadFile = File(...), is_questionnaire: bool =
             content,
             is_questionnaire
         )
-        return document.dict()
+        return document.model_dump()
     except ValueError as e:
         raise HTTPException(status_code=400, detail=str(e))
     except Exception as e:
@@ -65,7 +65,7 @@ async def get_document(document_id: str):
         document = document_service.get_document(document_id)
         if not document:
             raise HTTPException(status_code=404, detail="Document not found")
-        return document.dict()
+        return document.model_dump()
     except HTTPException:
         raise
     except Exception as e:
@@ -78,7 +78,7 @@ async def list_documents(is_questionnaire: Optional[bool] = None):
     try:
         documents = document_service.get_all_documents(is_questionnaire)
         return {
-            "documents": [d.dict() for d in documents],
+            "documents": [d.model_dump() for d in documents],
             "total": len(documents)
         }
     except Exception as e:

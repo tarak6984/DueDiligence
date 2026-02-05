@@ -6,7 +6,7 @@ from .chunking import chunking_strategy
 from ..storage.vector_store import vector_store
 from ..storage.database import db
 from ..models import IndexingStatus
-from datetime import datetime
+from datetime import datetime, timezone
 
 
 class DocumentIndexer:
@@ -40,7 +40,7 @@ class DocumentIndexer:
             # Update status to INDEXED
             self.db.update("documents", document_id, {
                 "indexing_status": IndexingStatus.INDEXED.value,
-                "indexed_at": datetime.utcnow().isoformat()
+                "indexed_at": datetime.now(timezone.utc).isoformat()
             })
             
             # Mark ALL_DOCS projects as OUTDATED
@@ -71,7 +71,7 @@ class DocumentIndexer:
             if project["status"] == ProjectStatus.READY.value:
                 self.db.update("projects", project["id"], {
                     "status": ProjectStatus.OUTDATED.value,
-                    "updated_at": datetime.utcnow().isoformat()
+                    "updated_at": datetime.now(timezone.utc).isoformat()
                 })
     
     def reindex_document(self, document_id: str, file_path: str) -> Dict[str, Any]:

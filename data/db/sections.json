@@ -1,0 +1,32 @@
+{
+  "sec_5e6a83c3": {
+    "id": "sec_5e6a83c3",
+    "project_id": "proj_c760d99b",
+    "title": "Investment Strategy & Objectives",
+    "order": 1
+  },
+  "sec_617126d4": {
+    "id": "sec_617126d4",
+    "project_id": "proj_c760d99b",
+    "title": "Fund Structure & Terms",
+    "order": 2
+  },
+  "sec_159deb22": {
+    "id": "sec_159deb22",
+    "project_id": "proj_c760d99b",
+    "title": "Team & Organization",
+    "order": 3
+  },
+  "sec_692d529e": {
+    "id": "sec_692d529e",
+    "project_id": "proj_c760d99b",
+    "title": "Track Record & Performance",
+    "order": 4
+  },
+  "sec_78ea5345": {
+    "id": "sec_78ea5345",
+    "project_id": "proj_c760d99b",
+    "title": "Operations & Compliance",
+    "order": 5
+  }
+}

@@ -1,0 +1,122 @@
+{
+  "q_14779008": {
+    "id": "q_14779008",
+    "project_id": "proj_c760d99b",
+    "section_id": "sec_5e6a83c3",
+    "text": "What is the fund's primary investment strategy?",
+    "order": 1,
+    "context": null
+  },
+  "q_2824273f": {
+    "id": "q_2824273f",
+    "project_id": "proj_c760d99b",
+    "section_id": "sec_5e6a83c3",
+    "text": "What are the target sectors and geographies?",
+    "order": 2,
+    "context": null
+  },
+  "q_b5613853": {
+    "id": "q_b5613853",
+    "project_id": "proj_c760d99b",
+    "section_id": "sec_5e6a83c3",
+    "text": "What is the typical investment size and ownership percentage?",
+    "order": 3,
+    "context": null
+  },
+  "q_c29e6ac6": {
+    "id": "q_c29e6ac6",
+    "project_id": "proj_c760d99b",
+    "section_id": "sec_617126d4",
+    "text": "What is the fund size and target capital raise?",
+    "order": 1,
+    "context": null
+  },
+  "q_2a467a44": {
+    "id": "q_2a467a44",
+    "project_id": "proj_c760d99b",
+    "section_id": "sec_617126d4",
+    "text": "What are the management fees and carried interest terms?",
+    "order": 2,
+    "context": null
+  },
+  "q_bb721910": {
+    "id": "q_bb721910",
+    "project_id": "proj_c760d99b",
+    "section_id": "sec_617126d4",
+    "text": "What is the fund term and investment period?",
+    "order": 3,
+    "context": null
+  },
+  "q_31651649": {
+    "id": "q_31651649",
+    "project_id": "proj_c760d99b",
+    "section_id": "sec_159deb22",
+    "text": "Who are the key investment professionals and their backgrounds?",
+    "order": 1,
+    "context": null
+  },
+  "q_b51a1255": {
+    "id": "q_b51a1255",
+    "project_id": "proj_c760d99b",
+    "section_id": "sec_159deb22",
+    "text": "What is the organizational structure and decision-making process?",
+    "order": 2,
+    "context": null
+  },
+  "q_176b1fcb": {
+    "id": "q_176b1fcb",
+    "project_id": "proj_c760d99b",
+    "section_id": "sec_159deb22",
+    "text": "How is the team compensated and incentivized?",
+    "order": 3,
+    "context": null
+  },
+  "q_81af8865": {
+    "id": "q_81af8865",
+    "project_id": "proj_c760d99b",
+    "section_id": "sec_692d529e",
+    "text": "What is the historical performance across previous funds?",
+    "order": 1,
+    "context": null
+  },
+  "q_b5e03dbb": {
+    "id": "q_b5e03dbb",
+    "project_id": "proj_c760d99b",
+    "section_id": "sec_692d529e",
+    "text": "What are the realized vs. unrealized returns?",
+    "order": 2,
+    "context": null
+  },
+  "q_14db4f1e": {
+    "id": "q_14db4f1e",
+    "project_id": "proj_c760d99b",
+    "section_id": "sec_692d529e",
+    "text": "Can you provide case studies of successful investments?",
+    "order": 3,
+    "context": null
+  },
+  "q_6ffd7ae0": {
+    "id": "q_6ffd7ae0",
+    "project_id": "proj_c760d99b",
+    "section_id": "sec_78ea5345",
+    "text": "What are the key operational policies and procedures?",
+    "order": 1,
+    "context": null
+  },
+  "q_8e862e8a": {
+    "id": "q_8e862e8a",
+    "project_id": "proj_c760d99b",
+    "section_id": "sec_78ea5345",
+    "text": "How is compliance managed and monitored?",
+    "order": 2,
+    "context": null
+  },
+  "q_01d29e03": {
+    "id": "q_01d29e03",
+    "project_id": "proj_c760d99b",
+    "section_id": "sec_78ea5345",
+    "text": "What are the ESG considerations and policies?",
+    "order": 3,
+    "context": null
+  }
+}

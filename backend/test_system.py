@@ -25,7 +25,7 @@ def test_complete_workflow():
     print("\n[1] Registering and indexing documents...")
     
     # Register questionnaire
-    questionnaire_path = "data/ILPA_Due_Diligence_Questionnaire_v1.2.pdf"
+    questionnaire_path = "../data/ILPA_Due_Diligence_Questionnaire_v1.2.pdf"
     questionnaire = document_service.register_existing_document(
         questionnaire_path,
         is_questionnaire=True
@@ -34,10 +34,10 @@ def test_complete_workflow():
     
     # Register reference documents
     reference_docs = [
-        "data/20260110_MiniMax_Accountants_Report.pdf",
-        "data/20260110_MiniMax_Audited_Consolidated_Financial_Statements.pdf",
-        "data/20260110_MiniMax_Global_Offering_Prospectus.pdf",
-        "data/20260110_MiniMax_Industry_Report.pdf",
+        "../data/20260110_MiniMax_Accountants_Report.pdf",
+        "../data/20260110_MiniMax_Audited_Consolidated_Financial_Statements.pdf",
+        "../data/20260110_MiniMax_Global_Offering_Prospectus.pdf",
+        "../data/20260110_MiniMax_Industry_Report.pdf",
     ]
     
     doc_ids = []
@@ -95,7 +95,7 @@ def test_complete_workflow():
     
     # Register another document
     new_doc = document_service.register_existing_document(
-        "data/20260110_MiniMax_Accountants_Report.pdf",  # Re-using for demo
+        "../data/20260110_MiniMax_Accountants_Report.pdf",  # Re-using for demo
         is_questionnaire=False
     )
     document_indexer.index_document(new_doc.id, new_doc.file_path)

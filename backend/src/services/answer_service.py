@@ -1,7 +1,7 @@
 """Answer generation service."""
 
 from typing import Dict, Any, List, Optional
-from datetime import datetime
+from datetime import datetime, timezone
 from ..models import Answer, AnswerStatus, Citation, Reference, DocumentScope
 from ..storage.database import db
 from ..storage.vector_store import vector_store
@@ -63,7 +63,7 @@ class AnswerService:
         # Update answer in database
         answer_record = self.db.find_one("answers", {"question_id": question_id})
         if answer_record:
-            answer_data["updated_at"] = datetime.utcnow().isoformat()
+            answer_data["updated_at"] = datetime.now(timezone.utc).isoformat()
             self.db.update("answers", answer_record["id"], answer_data)
             updated = self.db.get("answers", answer_record["id"])
             
@@ -81,7 +81,7 @@ class AnswerService:
         # Update project status
         self.db.update("projects", project_id, {
             "status": ProjectStatus.GENERATING.value,
-            "updated_at": datetime.utcnow().isoformat()
+            "updated_at": datetime.now(timezone.utc).isoformat()
         })
         
         # Get all questions
@@ -101,7 +101,7 @@ class AnswerService:
         # Update project status to READY
         self.db.update("projects", project_id, {
             "status": ProjectStatus.READY.value,
-            "updated_at": datetime.utcnow().isoformat()
+            "updated_at": datetime.now(timezone.utc).isoformat()
         })
         
         return {
@@ -120,7 +120,7 @@ class AnswerService:
             raise ValueError(f"Answer not found: {answer_id}")
         
         updates = {
-            "updated_at": datetime.utcnow().isoformat()
+            "updated_at": datetime.now(timezone.utc).isoformat()
         }
         
         if status:
@@ -220,7 +220,7 @@ class AnswerService:
         
         self.db.update("projects", project_id, {
             "answered_questions": answered,
-            "updated_at": datetime.utcnow().isoformat()
+            "updated_at": datetime.now(timezone.utc).isoformat()
         })
 
 

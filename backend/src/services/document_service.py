@@ -1,7 +1,7 @@
 """Document management service."""
 
 from typing import Dict, Any, List, Optional
-from datetime import datetime
+from datetime import datetime, timezone
 from pathlib import Path
 from ..models import Document, IndexingStatus
 from ..storage.database import db
@@ -36,7 +36,7 @@ class DocumentService:
             "file_path": storage_path,
             "indexing_status": IndexingStatus.PENDING.value,
             "is_questionnaire": is_questionnaire,
-            "uploaded_at": datetime.utcnow().isoformat()
+            "uploaded_at": datetime.now(timezone.utc).isoformat()
         }
         
         self.db.insert("documents", document_id, document_data)
@@ -68,7 +68,7 @@ class DocumentService:
             "file_path": storage_path,
             "indexing_status": IndexingStatus.PENDING.value,
             "is_questionnaire": is_questionnaire,
-            "uploaded_at": datetime.utcnow().isoformat()
+            "uploaded_at": datetime.now(timezone.utc).isoformat()
         }
         
         self.db.insert("documents", document_id, document_data)
@@ -108,11 +108,11 @@ class DocumentService:
         """Update document indexing status."""
         updates = {
             "indexing_status": status.value,
-            "updated_at": datetime.utcnow().isoformat()
+            "updated_at": datetime.now(timezone.utc).isoformat()
         }
         
         if status == IndexingStatus.INDEXED:
-            updates["indexed_at"] = datetime.utcnow().isoformat()
+            updates["indexed_at"] = datetime.now(timezone.utc).isoformat()
         
         if error_message:
             updates["error_message"] = error_message

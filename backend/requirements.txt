@@ -3,3 +3,10 @@ uvicorn[standard]
 pydantic
 python-multipart
 PyPDF2
+python-dotenv
+requests
+websockets
+openpyxl
+python-docx
+Pillow
+aiofiles

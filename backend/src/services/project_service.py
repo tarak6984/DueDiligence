@@ -1,7 +1,7 @@
 """Project management service."""
 
 from typing import Dict, Any, List, Optional
-from datetime import datetime
+from datetime import datetime, timezone
 from ..models import Project, ProjectStatus, DocumentScope, Question, Section
 from ..storage.database import db
 from ..utils import generate_id
@@ -41,8 +41,8 @@ class ProjectService:
             "document_scope": document_scope.value,
             "selected_document_ids": selected_document_ids or [],
             "status": ProjectStatus.CREATING.value,
-            "created_at": datetime.utcnow().isoformat(),
-            "updated_at": datetime.utcnow().isoformat(),
+            "created_at": datetime.now(timezone.utc).isoformat(),
+            "updated_at": datetime.now(timezone.utc).isoformat(),
             "total_questions": parsed["total_questions"],
             "answered_questions": 0
         }
@@ -55,7 +55,7 @@ class ProjectService:
         # Update project status to READY
         self.db.update("projects", project_id, {
             "status": ProjectStatus.READY.value,
-            "updated_at": datetime.utcnow().isoformat()
+            "updated_at": datetime.now(timezone.utc).isoformat()
         })
         
         project_data["status"] = ProjectStatus.READY.value
@@ -99,8 +99,8 @@ class ProjectService:
                     "status": AnswerStatus.PENDING.value,
                     "is_answerable": False,
                     "citations": [],
-                    "created_at": datetime.utcnow().isoformat(),
-                    "updated_at": datetime.utcnow().isoformat()
+                    "created_at": datetime.now(timezone.utc).isoformat(),
+                    "updated_at": datetime.now(timezone.utc).isoformat()
                 }
                 self.db.insert("answers", answer_id, answer)
     
@@ -122,7 +122,7 @@ class ProjectService:
             raise ValueError(f"Project not found: {project_id}")
         
         updates = {
-            "updated_at": datetime.utcnow().isoformat()
+            "updated_at": datetime.now(timezone.utc).isoformat()
         }
         
         if document_scope:

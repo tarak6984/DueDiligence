@@ -3,7 +3,7 @@
 from enum import Enum
 from typing import Optional, List
 from pydantic import BaseModel, Field
-from datetime import datetime
+from datetime import datetime, timezone
 
 
 class ProjectStatus(str, Enum):
@@ -29,8 +29,8 @@ class Project(BaseModel):
     document_scope: DocumentScope = Field(..., description="Which documents to use for answers")
     selected_document_ids: Optional[List[str]] = Field(default=None, description="List of document IDs if scope is SELECTED_DOCS")
     status: ProjectStatus = Field(default=ProjectStatus.CREATING, description="Current project status")
-    created_at: datetime = Field(default_factory=datetime.utcnow)
-    updated_at: datetime = Field(default_factory=datetime.utcnow)
+    created_at: datetime = Field(default_factory=lambda: datetime.now(timezone.utc))
+    updated_at: datetime = Field(default_factory=lambda: datetime.now(timezone.utc))
     total_questions: int = Field(default=0, description="Total number of questions")
     answered_questions: int = Field(default=0, description="Number of answered questions")
     error_message: Optional[str] = Field(default=None, description="Error message if status is ERROR")

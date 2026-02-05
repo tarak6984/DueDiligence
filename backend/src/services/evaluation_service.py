@@ -1,7 +1,7 @@
 """Evaluation service for comparing AI vs human answers."""
 
 from typing import Dict, Any, List
-from datetime import datetime
+from datetime import datetime, timezone
 from ..models import EvaluationResult
 from ..storage.database import db
 from ..utils import generate_id
@@ -47,7 +47,7 @@ class EvaluationService:
             "semantic_similarity": semantic_sim,
             "keyword_overlap": keyword_overlap,
             "explanation": explanation,
-            "created_at": datetime.utcnow().isoformat()
+            "created_at": datetime.now(timezone.utc).isoformat()
         }
         
         self.db.insert("evaluations", eval_id, eval_data)

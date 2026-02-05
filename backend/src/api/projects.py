@@ -61,8 +61,8 @@ async def get_project_info(project_id: str):
         sections = project_service.get_project_sections(project_id)
         
         return {
-            "project": project.dict(),
-            "sections": [s.dict() for s in sections]
+            "project": project.model_dump(),
+            "sections": [s.model_dump() for s in sections]
         }
     except HTTPException:
         raise
@@ -88,7 +88,7 @@ async def list_projects():
     try:
         projects = project_service.get_all_projects()
         return {
-            "projects": [p.dict() for p in projects],
+            "projects": [p.model_dump() for p in projects],
             "total": len(projects)
         }
     except Exception as e:

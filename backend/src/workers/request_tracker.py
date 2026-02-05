@@ -1,7 +1,7 @@
 """Request tracking for async operations."""
 
 from typing import Dict, Any, Optional, Callable
-from datetime import datetime
+from datetime import datetime, timezone
 import threading
 from ..models import AsyncRequest, RequestStatus
 from ..storage.database import db
@@ -24,8 +24,8 @@ class RequestTracker:
             "request_type": request_type,
             "status": RequestStatus.PENDING.value,
             "progress": 0,
-            "created_at": datetime.utcnow().isoformat(),
-            "updated_at": datetime.utcnow().isoformat()
+            "created_at": datetime.now(timezone.utc).isoformat(),
+            "updated_at": datetime.now(timezone.utc).isoformat()
         }
         
         self.db.insert("requests", request_id, request_data)
@@ -37,14 +37,14 @@ class RequestTracker:
                       error_message: Optional[str] = None):
         """Update request status and progress."""
         updates = {
-            "updated_at": datetime.utcnow().isoformat()
+            "updated_at": datetime.now(timezone.utc).isoformat()
         }
         
         if status:
             updates["status"] = status.value
             
             if status == RequestStatus.COMPLETED:
-                updates["completed_at"] = datetime.utcnow().isoformat()
+                updates["completed_at"] = datetime.now(timezone.utc).isoformat()
                 updates["progress"] = 100
         
         if progress is not None:

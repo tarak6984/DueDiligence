@@ -1,0 +1,67 @@
+{
+  "doc_f021099a": {
+    "id": "doc_f021099a",
+    "name": "ILPA_Due_Diligence_Questionnaire_v1.2.pdf",
+    "file_type": "PDF",
+    "file_size": 639339,
+    "file_path": "data\\storage\\doc_f021099a.pdf",
+    "indexing_status": "PENDING",
+    "is_questionnaire": true,
+    "uploaded_at": "2026-02-05T08:06:11.947709"
+  },
+  "doc_0f13a28a": {
+    "id": "doc_0f13a28a",
+    "name": "20260110_MiniMax_Accountants_Report.pdf",
+    "file_type": "PDF",
+    "file_size": 430911,
+    "file_path": "data\\storage\\doc_0f13a28a.pdf",
+    "indexing_status": "INDEXED",
+    "is_questionnaire": false,
+    "uploaded_at": "2026-02-05T08:06:11.950565",
+    "indexed_at": "2026-02-05T08:06:12.405679"
+  },
+  "doc_ca27cd96": {
+    "id": "doc_ca27cd96",
+    "name": "20260110_MiniMax_Audited_Consolidated_Financial_Statements.pdf",
+    "file_type": "PDF",
+    "file_size": 12095433,
+    "file_path": "data\\storage\\doc_ca27cd96.pdf",
+    "indexing_status": "INDEXED",
+    "is_questionnaire": false,
+    "uploaded_at": "2026-02-05T08:06:11.973390",
+    "indexed_at": "2026-02-05T08:07:12.232673"
+  },
+  "doc_6acaa8fd": {
+    "id": "doc_6acaa8fd",
+    "name": "20260110_MiniMax_Global_Offering_Prospectus.pdf",
+    "file_type": "PDF",
+    "file_size": 7203109,
+    "file_path": "data\\storage\\doc_6acaa8fd.pdf",
+    "indexing_status": "INDEXED",
+    "is_questionnaire": false,
+    "uploaded_at": "2026-02-05T08:06:11.990882",
+    "indexed_at": "2026-02-05T08:07:19.244260"
+  },
+  "doc_9c366d70": {
+    "id": "doc_9c366d70",
+    "name": "20260110_MiniMax_Industry_Report.pdf",
+    "file_type": "PDF",
+    "file_size": 4884607,
+    "file_path": "data\\storage\\doc_9c366d70.pdf",
+    "indexing_status": "INDEXED",
+    "is_questionnaire": false,
+    "uploaded_at": "2026-02-05T08:06:12.005368",
+    "indexed_at": "2026-02-05T08:07:20.670212"
+  },
+  "doc_454816da": {
+    "id": "doc_454816da",
+    "name": "20260110_MiniMax_Accountants_Report.pdf",
+    "file_type": "PDF",
+    "file_size": 430911,
+    "file_path": "data\\storage\\doc_454816da.pdf",
+    "indexing_status": "INDEXED",
+    "is_questionnaire": false,
+    "uploaded_at": "2026-02-05T08:07:26.465012",
+    "indexed_at": "2026-02-05T08:07:27.512240"
+  }
+}

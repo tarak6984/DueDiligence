@@ -1,0 +1,1143 @@
+{
+  "ans_0e9d2091": {
+    "id": "ans_0e9d2091",
+    "question_id": "q_14779008",
+    "project_id": "proj_c760d99b",
+    "status": "CONFIRMED",
+    "is_answerable": true,
+    "citations": [
+      {
+        "text": "g of the Offer Shares or the distribution of this Prospectus in anyjurisdiction other than Hong Kong The distribution of this Prospectus and the offer",
+        "references": [
+          {
+            "document_id": "doc_6acaa8fd",
+            "document_name": "20260110_MiniMax_Global_Offering_Prospectus.pdf",
+            "chunk_id": "c552fbefbb76bde4eab64a185308cd98",
+            "page_number": 9,
+            "bounding_box": null,
+            "text": "isdiction other than Hong Kong The distribution of this Prospectus and the offeringand sale of the Offer Shares in other jurisdictions are subject to restrictions and may notbe made except as permitte"
+          },
+          {
+            "document_id": "doc_6acaa8fd",
+            "document_name": "20260110_MiniMax_Global_Offering_Prospectus.pdf",
+            "chunk_id": "8569d2ce4247a64c8c76e822088b6222",
+            "page_number": 137,
+            "bounding_box": null,
+            "text": "ke such an offer or invitation The distribution of this Prospectusand the offering and sales of the Offer Shares in other jurisdictions are subject to restrictionsand may not be made except as permitt"
+          }
+        ]
+      },
+      {
+        "text": "An investment in our Class A Ordinary Shares involves significant risks You should\ncarefully consider all of the information in this Prospectus, inclu",
+        "references": [
+          {
+            "document_id": "doc_6acaa8fd",
+            "document_name": "20260110_MiniMax_Global_Offering_Prospectus.pdf",
+            "chunk_id": "1d772634dd8ef03415763c3cce96c40a",
+            "page_number": 70,
+            "bounding_box": null,
+            "text": "An investment in our Class A Ordinary Shares involves significant risks You should\ncarefully consider all of the information in this Prospectus, including the risks anduncertainties described below, b"
+          },
+          {
+            "document_id": "doc_6acaa8fd",
+            "document_name": "20260110_MiniMax_Global_Offering_Prospectus.pdf",
+            "chunk_id": "e4d057578fca23f3692b851a8114ff7e",
+            "page_number": 70,
+            "bounding_box": null,
+            "text": "hapter 8A of the Listing Rules Our operationsand the global foundation model industry in which we operate involve certain risks anduncertainties, some of which are beyond our control and may cause you"
+          }
+        ]
+      },
+      {
+        "text": "HSG\nHSG Growth VII Holdco E, Ltd and Himalia Holding Limited are companies\nincorporated in the Cayman Islands with limited liability The sole sharehol",
+        "references": [
+          {
+            "document_id": "doc_6acaa8fd",
+            "document_name": "20260110_MiniMax_Global_Offering_Prospectus.pdf",
+            "chunk_id": "275a51b3e56a0ddb7515f2b2b50d0f24",
+            "page_number": 227,
+            "bounding_box": null,
+            "text": "HSG\nHSG Growth VII Holdco E, Ltd and Himalia Holding Limited are companies\nincorporated in the Cayman Islands with limited liability The sole shareholder of HSGGrowth VII Holdco E, Ltd is HongShan Cap"
+          },
+          {
+            "document_id": "doc_6acaa8fd",
+            "document_name": "20260110_MiniMax_Global_Offering_Prospectus.pdf",
+            "chunk_id": "6fa797384a5912ee69792f9b8547ffc1",
+            "page_number": 227,
+            "bounding_box": null,
+            "text": "HSG Growth VI Management, L.P HSG\nGVII Fund and HSG GVI Fund are investment funds whose primary purpose is to makeequity investments in private companies The general partner of each of HSG Growth VIIM"
+          }
+        ]
+      }
+    ],
+    "created_at": "2026-02-05T08:07:22.249918",
+    "updated_at": "2026-02-05T08:07:27.513294",
+    "ai_answer": "Based on the available documentation: g of the Offer Shares or the distribution of this Prospectus in anyjurisdiction other than Hong Kong The distribution of this Prospectus and the offeringand sale of the Offer Shares in other jurisdict An investment in our Class A Ordinary Shares involves significant risks You should\ncarefully consider all of the information in this Prospectus, including the risks anduncertainties described below, b HSG\nHSG Growth VII Holdco E, Ltd and Himalia Holding Limited are companies\nincorporated in the Cayman Islands with limited liability The sole shareholder of HSGGrowth VII Holdco E, Ltd is HongShan Cap",
+    "confidence_score": 0.5714285714285714,
+    "review_notes": "Reviewed and approved by analyst"
+  },
+  "ans_d7024412": {
+    "id": "ans_d7024412",
+    "question_id": "q_2824273f",
+    "project_id": "proj_c760d99b",
+    "status": "GENERATED",
+    "is_answerable": true,
+    "citations": [
+      {
+        "text": "the cost of thefinancial asset, in which case, such gains are recorded in other comprehensive income Equity investmentsdesignated at fair value throug",
+        "references": [
+          {
+            "document_id": "doc_0f13a28a",
+            "document_name": "20260110_MiniMax_Accountants_Report.pdf",
+            "chunk_id": "5b8733a0afcbd4d21aa5464185faae6e",
+            "page_number": 24,
+            "bounding_box": null,
+            "text": "in other comprehensive income Equity investmentsdesignated at fair value through other comprehensive income are not subject to impairment assessment.\nFinancial assets at fair value through profit or l"
+          },
+          {
+            "document_id": "doc_6acaa8fd",
+            "document_name": "20260110_MiniMax_Global_Offering_Prospectus.pdf",
+            "chunk_id": "c3873cc83db5e697f9a63c5f89c51814",
+            "page_number": 561,
+            "bounding_box": null,
+            "text": "in other comprehensive income Equity investmentsdesignated at fair value through other comprehensive income are not subject to impairment assessment.\nFinancial assets at fair value through profit or l"
+          }
+        ]
+      },
+      {
+        "text": ", it evaluates if, and to what extent, it has retained the risk and rewards of ownershipof the asset When it has neither transferred nor retained subs",
+        "references": [
+          {
+            "document_id": "doc_0f13a28a",
+            "document_name": "20260110_MiniMax_Accountants_Report.pdf",
+            "chunk_id": "49f473e65d710bb303ee1b259319ffe4",
+            "page_number": 24,
+            "bounding_box": null,
+            "text": "Group\u2019s continuing involvement In that case, the Group also recognises an associated liability The transferredasset and the associated liability are measured on a basis that reflects the rights and ob"
+          },
+          {
+            "document_id": "doc_6acaa8fd",
+            "document_name": "20260110_MiniMax_Global_Offering_Prospectus.pdf",
+            "chunk_id": "f2351b48ad1fac22a9680dc257a67889",
+            "page_number": 561,
+            "bounding_box": null,
+            "text": "Group\u2019s continuing involvement In that case, the Group also recognises an associated liability The transferredasset and the associated liability are measured on a basis that reflects the rights and ob"
+          }
+        ]
+      },
+      {
+        "text": "g of the Offer Shares or the distribution of this Prospectus in anyjurisdiction other than Hong Kong The distribution of this Prospectus and the offer",
+        "references": [
+          {
+            "document_id": "doc_6acaa8fd",
+            "document_name": "20260110_MiniMax_Global_Offering_Prospectus.pdf",
+            "chunk_id": "c552fbefbb76bde4eab64a185308cd98",
+            "page_number": 9,
+            "bounding_box": null,
+            "text": "isdiction other than Hong Kong The distribution of this Prospectus and the offeringand sale of the Offer Shares in other jurisdictions are subject to restrictions and may notbe made except as permitte"
+          },
+          {
+            "document_id": "doc_6acaa8fd",
+            "document_name": "20260110_MiniMax_Global_Offering_Prospectus.pdf",
+            "chunk_id": "8569d2ce4247a64c8c76e822088b6222",
+            "page_number": 137,
+            "bounding_box": null,
+            "text": "ke such an offer or invitation The distribution of this Prospectusand the offering and sales of the Offer Shares in other jurisdictions are subject to restrictionsand may not be made except as permitt"
+          }
+        ]
+      }
+    ],
+    "created_at": "2026-02-05T08:07:22.250745",
+    "updated_at": "2026-02-05T08:07:22.829279",
+    "ai_answer": "Based on the available documentation: the cost of thefinancial asset, in which case, such gains are recorded in other comprehensive income Equity investmentsdesignated at fair value through other comprehensive income are not subject to im , it evaluates if, and to what extent, it has retained the risk and rewards of ownershipof the asset When it has neither transferred nor retained substantially all the risks and rewards of the asset n g of the Offer Shares or the distribution of this Prospectus in anyjurisdiction other than Hong Kong The distribution of this Prospectus and the offeringand sale of the Offer Shares in other jurisdict",
+    "confidence_score": 0.5714285714285714
+  },
+  "ans_11addc41": {
+    "id": "ans_11addc41",
+    "question_id": "q_b5613853",
+    "project_id": "proj_c760d99b",
+    "status": "GENERATED",
+    "is_answerable": true,
+    "citations": [
+      {
+        "text": "nces indicate that there\nare changes to one or more of the three elements of control described above A change in the ownership interestof a subsidiary",
+        "references": [
+          {
+            "document_id": "doc_0f13a28a",
+            "document_name": "20260110_MiniMax_Accountants_Report.pdf",
+            "chunk_id": "fead58409e6db90524cec111644d597a",
+            "page_number": 19,
+            "bounding_box": null,
+            "text": "nts of control described above A change in the ownership interestof a subsidiary, without a loss of control, is accounted for as an equity transaction.\nIf the Group loses control over a subsidiary, it"
+          },
+          {
+            "document_id": "doc_6acaa8fd",
+            "document_name": "20260110_MiniMax_Global_Offering_Prospectus.pdf",
+            "chunk_id": "2cb7cae3d65db2687b014477aa63169e",
+            "page_number": 556,
+            "bounding_box": null,
+            "text": "nts of control described above A change in the ownership interestof a subsidiary, without a loss of control, is accounted for as an equity transaction.\nIf the Group loses control over a subsidiary, it"
+          }
+        ]
+      },
+      {
+        "text": "g of the Offer Shares or the distribution of this Prospectus in anyjurisdiction other than Hong Kong The distribution of this Prospectus and the offer",
+        "references": [
+          {
+            "document_id": "doc_6acaa8fd",
+            "document_name": "20260110_MiniMax_Global_Offering_Prospectus.pdf",
+            "chunk_id": "c552fbefbb76bde4eab64a185308cd98",
+            "page_number": 9,
+            "bounding_box": null,
+            "text": "isdiction other than Hong Kong The distribution of this Prospectus and the offeringand sale of the Offer Shares in other jurisdictions are subject to restrictions and may notbe made except as permitte"
+          },
+          {
+            "document_id": "doc_6acaa8fd",
+            "document_name": "20260110_MiniMax_Global_Offering_Prospectus.pdf",
+            "chunk_id": "8569d2ce4247a64c8c76e822088b6222",
+            "page_number": 137,
+            "bounding_box": null,
+            "text": "ke such an offer or invitation The distribution of this Prospectusand the offering and sales of the Offer Shares in other jurisdictions are subject to restrictionsand may not be made except as permitt"
+          }
+        ]
+      },
+      {
+        "text": "An investment in our Class A Ordinary Shares involves significant risks You should\ncarefully consider all of the information in this Prospectus, inclu",
+        "references": [
+          {
+            "document_id": "doc_6acaa8fd",
+            "document_name": "20260110_MiniMax_Global_Offering_Prospectus.pdf",
+            "chunk_id": "1d772634dd8ef03415763c3cce96c40a",
+            "page_number": 70,
+            "bounding_box": null,
+            "text": "An investment in our Class A Ordinary Shares involves significant risks You should\ncarefully consider all of the information in this Prospectus, including the risks anduncertainties described below, b"
+          },
+          {
+            "document_id": "doc_6acaa8fd",
+            "document_name": "20260110_MiniMax_Global_Offering_Prospectus.pdf",
+            "chunk_id": "e4d057578fca23f3692b851a8114ff7e",
+            "page_number": 70,
+            "bounding_box": null,
+            "text": "hapter 8A of the Listing Rules Our operationsand the global foundation model industry in which we operate involve certain risks anduncertainties, some of which are beyond our control and may cause you"
+          }
+        ]
+      }
+    ],
+    "created_at": "2026-02-05T08:07:22.251730",
+    "updated_at": "2026-02-05T08:07:23.121101",
+    "ai_answer": "Based on the available documentation: nces indicate that there\nare changes to one or more of the three elements of control described above A change in the ownership interestof a subsidiary, without a loss of control, is accounted for as a g of the Offer Shares or the distribution of this Prospectus in anyjurisdiction other than Hong Kong The distribution of this Prospectus and the offeringand sale of the Offer Shares in other jurisdict An investment in our Class A Ordinary Shares involves significant risks You should\ncarefully consider all of the information in this Prospectus, including the risks anduncertainties described below, b",
+    "confidence_score": 0.5555555555555556
+  },
+  "ans_5123e9cf": {
+    "id": "ans_5123e9cf",
+    "question_id": "q_c29e6ac6",
+    "project_id": "proj_c760d99b",
+    "status": "GENERATED",
+    "is_answerable": true,
+    "citations": [
+      {
+        "text": "number of Offer Shares to be subscribed by the CornerstoneInvestors would be 16,504,040 Offer Shares The table below reflects the shareholdingpercenta",
+        "references": [
+          {
+            "document_id": "doc_6acaa8fd",
+            "document_name": "20260110_MiniMax_Global_Offering_Prospectus.pdf",
+            "chunk_id": "0721bde0047a87fc657bb2c51f76bb26",
+            "page_number": 390,
+            "bounding_box": null,
+            "text": "uld be 16,504,040 Offer Shares The table below reflects the shareholdingpercentage immediately after the completion of the Global Offering assuming there is no otherchange made to the issued share cap"
+          },
+          {
+            "document_id": "doc_6acaa8fd",
+            "document_name": "20260110_MiniMax_Global_Offering_Prospectus.pdf",
+            "chunk_id": "674361a8be78164e6a1e3c62df34501a",
+            "page_number": 389,
+            "bounding_box": null,
+            "text": "uld be 17,235,120 Offer Shares The table below reflects the shareholdingpercentage immediately after the completion of the Global Offering assuming there is no otherchange made to the issued share cap"
+          }
+        ]
+      },
+      {
+        "text": "OUR CORNERSTONE INVESTORS\nSet out below in the aggregate number of Offer Shares, and the corresponding percentages\nto the Offer Shares and our Company",
+        "references": [
+          {
+            "document_id": "doc_6acaa8fd",
+            "document_name": "20260110_MiniMax_Global_Offering_Prospectus.pdf",
+            "chunk_id": "cb4c39e45a29f65bff5bae1b6acf7916",
+            "page_number": 392,
+            "bounding_box": null,
+            "text": "OUR CORNERSTONE INVESTORS\nSet out below in the aggregate number of Offer Shares, and the corresponding percentages\nto the Offer Shares and our Company\u2019s total issued share capital under the Cornerston"
+          },
+          {
+            "document_id": "doc_6acaa8fd",
+            "document_name": "20260110_MiniMax_Global_Offering_Prospectus.pdf",
+            "chunk_id": "8af2c57dead33620b55248edb5b6b7cc",
+            "page_number": 393,
+            "bounding_box": null,
+            "text": "Based on the Offer Price of HK$158.0 (being the mid-point of the indicative Offer Price\nrange)\nAssuming the Offer Size Adjustment Option\nis not exercisedAssuming the Offer Size Adjustment Option\nis ex"
+          }
+        ]
+      },
+      {
+        "text": "OUR CONTROLLING SHAREHOLDERS\nImmediately following the completion of the Global Offering (assuming the Offer Size\nAdjustment Option and the Over-allot",
+        "references": [
+          {
+            "document_id": "doc_6acaa8fd",
+            "document_name": "20260110_MiniMax_Global_Offering_Prospectus.pdf",
+            "chunk_id": "16c08a7338aa2fbb4ae4120c6fccafa6",
+            "page_number": 28,
+            "bounding_box": null,
+            "text": "OUR CONTROLLING SHAREHOLDERS\nImmediately following the completion of the Global Offering (assuming the Offer Size\nAdjustment Option and the Over-allotment Option are not exercised), an aggregate of5,0"
+          },
+          {
+            "document_id": "doc_6acaa8fd",
+            "document_name": "20260110_MiniMax_Global_Offering_Prospectus.pdf",
+            "chunk_id": "76eff0c283158f138b2a84927a9c21d8",
+            "page_number": 376,
+            "bounding_box": null,
+            "text": "OUR CONTROLLING SHAREHOLDERS\nImmediately following the completion of the Global Offering (assuming the Offer Size\nAdjustment Option and the Over-allotment Option are not exercised), an aggregate of5,0"
+          }
+        ]
+      }
+    ],
+    "created_at": "2026-02-05T08:07:22.253059",
+    "updated_at": "2026-02-05T08:07:23.403694",
+    "ai_answer": "Based on the available documentation: number of Offer Shares to be subscribed by the CornerstoneInvestors would be 16,504,040 Offer Shares The table below reflects the shareholdingpercentage immediately after the completion of the Global  OUR CORNERSTONE INVESTORS\nSet out below in the aggregate number of Offer Shares, and the corresponding percentages\nto the Offer Shares and our Company\u2019s total issued share capital under the Cornerston OUR CONTROLLING SHAREHOLDERS\nImmediately following the completion of the Global Offering (assuming the Offer Size\nAdjustment Option and the Over-allotment Option are not exercised), an aggregate of5,0",
+    "confidence_score": 0.6296296296296297
+  },
+  "ans_83c813c6": {
+    "id": "ans_83c813c6",
+    "question_id": "q_2a467a44",
+    "project_id": "proj_c760d99b",
+    "status": "GENERATED",
+    "is_answerable": true,
+    "citations": [
+      {
+        "text": "ofany depreciation/amortisation) had no impairment loss been recognised for the asset in prior years A reversalof such an impairment loss is credited ",
+        "references": [
+          {
+            "document_id": "doc_0f13a28a",
+            "document_name": "20260110_MiniMax_Accountants_Report.pdf",
+            "chunk_id": "7c6b20c054eb90fb4eea412c7366301b",
+            "page_number": 21,
+            "bounding_box": null,
+            "text": "d for the asset in prior years A reversalof such an impairment loss is credited to the statement of profit or loss in the period in which it arises, unlessthe asset is carried at a revalued amount, in"
+          },
+          {
+            "document_id": "doc_6acaa8fd",
+            "document_name": "20260110_MiniMax_Global_Offering_Prospectus.pdf",
+            "chunk_id": "84bce2021aef0fd1b61b5b21fa4402a6",
+            "page_number": 558,
+            "bounding_box": null,
+            "text": "d for the asset in prior years A reversalof such an impairment loss is credited to the statement of profit or loss in the period in which it arises, unlessthe asset is carried at a revalued amount, in"
+          }
+        ]
+      },
+      {
+        "text": "the cost of thefinancial asset, in which case, such gains are recorded in other comprehensive income Equity investmentsdesignated at fair value throug",
+        "references": [
+          {
+            "document_id": "doc_0f13a28a",
+            "document_name": "20260110_MiniMax_Accountants_Report.pdf",
+            "chunk_id": "5b8733a0afcbd4d21aa5464185faae6e",
+            "page_number": 24,
+            "bounding_box": null,
+            "text": "in other comprehensive income Equity investmentsdesignated at fair value through other comprehensive income are not subject to impairment assessment.\nFinancial assets at fair value through profit or l"
+          },
+          {
+            "document_id": "doc_6acaa8fd",
+            "document_name": "20260110_MiniMax_Global_Offering_Prospectus.pdf",
+            "chunk_id": "c3873cc83db5e697f9a63c5f89c51814",
+            "page_number": 561,
+            "bounding_box": null,
+            "text": "in other comprehensive income Equity investmentsdesignated at fair value through other comprehensive income are not subject to impairment assessment.\nFinancial assets at fair value through profit or l"
+          }
+        ]
+      },
+      {
+        "text": "Subsequent measurement\nThe subsequent measurement of financial liabilities depends on their classification as follows:\nFinancial liabilities at amorti",
+        "references": [
+          {
+            "document_id": "doc_6acaa8fd",
+            "document_name": "20260110_MiniMax_Global_Offering_Prospectus.pdf",
+            "chunk_id": "19b71acf5d7c3053b3e75f5d711b2ff4",
+            "page_number": 420,
+            "bounding_box": null,
+            "text": "Financial liabilities\nInitial recognition and measurement\nFinancial liabilities are classified, at initial recognition, as financial liabilities at fair\nvalue through profit or loss, loans and borrowi"
+          },
+          {
+            "document_id": "doc_0f13a28a",
+            "document_name": "20260110_MiniMax_Accountants_Report.pdf",
+            "chunk_id": "b80377d496ba2dea55432a8925db4aeb",
+            "page_number": 26,
+            "bounding_box": null,
+            "text": "Subsequent measurement\nThe subsequent measurement of financial liabilities depends on their classification as follows:\nFinancial liabilities at amortised cost (trade and bills payables, other payables"
+          }
+        ]
+      }
+    ],
+    "created_at": "2026-02-05T08:07:22.254033",
+    "updated_at": "2026-02-05T08:07:23.710240",
+    "ai_answer": "Based on the available documentation: ofany depreciation/amortisation) had no impairment loss been recognised for the asset in prior years A reversalof such an impairment loss is credited to the statement of profit or loss in the period i the cost of thefinancial asset, in which case, such gains are recorded in other comprehensive income Equity investmentsdesignated at fair value through other comprehensive income are not subject to im Subsequent measurement\nThe subsequent measurement of financial liabilities depends on their classification as follows:\nFinancial liabilities at amortised cost (trade and bills payables, other payables",
+    "confidence_score": 0.5555555555555556
+  },
+  "ans_43ce57c6": {
+    "id": "ans_43ce57c6",
+    "question_id": "q_bb721910",
+    "project_id": "proj_c760d99b",
+    "status": "GENERATED",
+    "is_answerable": true,
+    "citations": [
+      {
+        "text": "g of the Offer Shares or the distribution of this Prospectus in anyjurisdiction other than Hong Kong The distribution of this Prospectus and the offer",
+        "references": [
+          {
+            "document_id": "doc_6acaa8fd",
+            "document_name": "20260110_MiniMax_Global_Offering_Prospectus.pdf",
+            "chunk_id": "c552fbefbb76bde4eab64a185308cd98",
+            "page_number": 9,
+            "bounding_box": null,
+            "text": "isdiction other than Hong Kong The distribution of this Prospectus and the offeringand sale of the Offer Shares in other jurisdictions are subject to restrictions and may notbe made except as permitte"
+          },
+          {
+            "document_id": "doc_6acaa8fd",
+            "document_name": "20260110_MiniMax_Global_Offering_Prospectus.pdf",
+            "chunk_id": "8569d2ce4247a64c8c76e822088b6222",
+            "page_number": 137,
+            "bounding_box": null,
+            "text": "ke such an offer or invitation The distribution of this Prospectusand the offering and sales of the Offer Shares in other jurisdictions are subject to restrictionsand may not be made except as permitt"
+          }
+        ]
+      },
+      {
+        "text": "August 9, 2023 (the \u201cFinal Rule\u201d) imposes investment prohibition and notificationrequirements on U.S Persons for a wide range of investments in entiti",
+        "references": [
+          {
+            "document_id": "doc_6acaa8fd",
+            "document_name": "20260110_MiniMax_Global_Offering_Prospectus.pdf",
+            "chunk_id": "1b91862d6f92a49f96ce532411dcf112",
+            "page_number": 41,
+            "bounding_box": null,
+            "text": "ogies, and (iii) AIsystems U.S persons subject to the Final Rule are prohibited from making, or required toreport, certain investments in covered foreign persons, which are defined as \u201ccoveredtransact"
+          },
+          {
+            "document_id": "doc_6acaa8fd",
+            "document_name": "20260110_MiniMax_Global_Offering_Prospectus.pdf",
+            "chunk_id": "d65613991c88be662eff84b666516a13",
+            "page_number": 352,
+            "bounding_box": null,
+            "text": "ogies, and (iii) AIsystems U.S persons subject to the Final Rule are prohibited from making, or required toreport, certain investments in covered foreign persons, which are defined as \u201ccoveredtransact"
+          }
+        ]
+      },
+      {
+        "text": "An investment in our Class A Ordinary Shares involves significant risks You should\ncarefully consider all of the information in this Prospectus, inclu",
+        "references": [
+          {
+            "document_id": "doc_6acaa8fd",
+            "document_name": "20260110_MiniMax_Global_Offering_Prospectus.pdf",
+            "chunk_id": "1d772634dd8ef03415763c3cce96c40a",
+            "page_number": 70,
+            "bounding_box": null,
+            "text": "An investment in our Class A Ordinary Shares involves significant risks You should\ncarefully consider all of the information in this Prospectus, including the risks anduncertainties described below, b"
+          },
+          {
+            "document_id": "doc_6acaa8fd",
+            "document_name": "20260110_MiniMax_Global_Offering_Prospectus.pdf",
+            "chunk_id": "e4d057578fca23f3692b851a8114ff7e",
+            "page_number": 70,
+            "bounding_box": null,
+            "text": "hapter 8A of the Listing Rules Our operationsand the global foundation model industry in which we operate involve certain risks anduncertainties, some of which are beyond our control and may cause you"
+          }
+        ]
+      }
+    ],
+    "created_at": "2026-02-05T08:07:22.254881",
+    "updated_at": "2026-02-05T08:07:23.995928",
+    "ai_answer": "Based on the available documentation: g of the Offer Shares or the distribution of this Prospectus in anyjurisdiction other than Hong Kong The distribution of this Prospectus and the offeringand sale of the Offer Shares in other jurisdict August 9, 2023 (the \u201cFinal Rule\u201d) imposes investment prohibition and notificationrequirements on U.S Persons for a wide range of investments in entities associated with China(including Hong Kong and M An investment in our Class A Ordinary Shares involves significant risks You should\ncarefully consider all of the information in this Prospectus, including the risks anduncertainties described below, b",
+    "confidence_score": 0.625
+  },
+  "ans_d808e84c": {
+    "id": "ans_d808e84c",
+    "question_id": "q_31651649",
+    "project_id": "proj_c760d99b",
+    "status": "GENERATED",
+    "is_answerable": true,
+    "citations": [
+      {
+        "text": "SAFE or its local branches in connection with their direct or indirectoffshore investment activities SAFE Circular 37 is applicable to our shareholder",
+        "references": [
+          {
+            "document_id": "doc_6acaa8fd",
+            "document_name": "20260110_MiniMax_Global_Offering_Prospectus.pdf",
+            "chunk_id": "da2ae730f40126c3445c702b49532b71",
+            "page_number": 118,
+            "bounding_box": null,
+            "text": "offshore investment activities SAFE Circular 37 is applicable to our shareholders who are PRCresidents and may be applicable to any offshore acquisitions that we make in the future.\nSAFE Circular 37 r"
+          },
+          {
+            "document_id": "doc_6acaa8fd",
+            "document_name": "20260110_MiniMax_Global_Offering_Prospectus.pdf",
+            "chunk_id": "e7ac938c5004d693353ea5d635be1348",
+            "page_number": 118,
+            "bounding_box": null,
+            "text": "le bonds or other arrangements In addition, any PRC resident who is a direct orindirect shareholder of an SPV is required to update its filed registration with the local branchof SAFE with respect to "
+          }
+        ]
+      },
+      {
+        "text": "Pre-IPO Investment Series Angel Series Pre-A Series A Series A+ Series Pre-B Series Pre-B+ Series Pre-B++\nStrategic benefits the Pre-IPO\nInvestments b",
+        "references": [
+          {
+            "document_id": "doc_6acaa8fd",
+            "document_name": "20260110_MiniMax_Global_Offering_Prospectus.pdf",
+            "chunk_id": "17df2ae43d5e1fc520df37b69bf38fca",
+            "page_number": 220,
+            "bounding_box": null,
+            "text": "Pre-IPO Investment Series Angel Series Pre-A Series A Series A+ Series Pre-B Series Pre-B+ Series Pre-B++\nStrategic benefits the Pre-IPO\nInvestments brought to ourCompany /H1118/H1118/H1118/H1118/H111"
+          },
+          {
+            "document_id": "doc_6acaa8fd",
+            "document_name": "20260110_MiniMax_Global_Offering_Prospectus.pdf",
+            "chunk_id": "fba60a2891434e1dfd2bd24ea080d478",
+            "page_number": 492,
+            "bounding_box": null,
+            "text": "g Rules, each of Dr Yan and Ms Yun, key persons\nof the Company and the Pathfinder SIIs (including IDG SIIs and miHoYo SIIs), and theirrespective close associates, as identified under the section heade"
+          }
+        ]
+      },
+      {
+        "text": "the CEO, enabling faster decision-making which facilitates iteration ofintelligent foundation models We operate cross-functional teams assembled throu",
+        "references": [
+          {
+            "document_id": "doc_6acaa8fd",
+            "document_name": "20260110_MiniMax_Global_Offering_Prospectus.pdf",
+            "chunk_id": "f1897df5cd23f6b728f570532c34850f",
+            "page_number": 258,
+            "bounding_box": null,
+            "text": "d through aproject-based model Breaking down traditional silos between tech, product and business, allteams are aligned on one goal: elevating the intelligence level of our models and making themacces"
+          },
+          {
+            "document_id": "doc_6acaa8fd",
+            "document_name": "20260110_MiniMax_Global_Offering_Prospectus.pdf",
+            "chunk_id": "80e2e37b46713aa3af66ade3f97d6b5b",
+            "page_number": 258,
+            "bounding_box": null,
+            "text": "rch anddevelopment initiatives We do not place strict limits on job scope, actively encouragingindividuals to embrace more responsibilities beyond their defined roles This is exemplified inour researc"
+          }
+        ]
+      }
+    ],
+    "created_at": "2026-02-05T08:07:22.256033",
+    "updated_at": "2026-02-05T08:07:24.267740",
+    "ai_answer": "Based on the available documentation: SAFE or its local branches in connection with their direct or indirectoffshore investment activities SAFE Circular 37 is applicable to our shareholders who are PRCresidents and may be applicable to an Pre-IPO Investment Series Angel Series Pre-A Series A Series A+ Series Pre-B Series Pre-B+ Series Pre-B++\nStrategic benefits the Pre-IPO\nInvestments brought to ourCompany /H1118/H1118/H1118/H1118/H111 the CEO, enabling faster decision-making which facilitates iteration ofintelligent foundation models We operate cross-functional teams assembled through aproject-based model Breaking down traditional ",
+    "confidence_score": 0.6666666666666666
+  },
+  "ans_98f624f8": {
+    "id": "ans_98f624f8",
+    "question_id": "q_b51a1255",
+    "project_id": "proj_c760d99b",
+    "status": "GENERATED",
+    "is_answerable": true,
+    "citations": [
+      {
+        "text": "two companies founded in the Asia-Pacific region to achieve global-scale commercialization\nof multiple AI native products Our offerings serve both ind",
+        "references": [
+          {
+            "document_id": "doc_6acaa8fd",
+            "document_name": "20260110_MiniMax_Global_Offering_Prospectus.pdf",
+            "chunk_id": "dca02fd156f08ac5e127eea979b98b1e",
+            "page_number": 258,
+            "bounding_box": null,
+            "text": "ed by our visionary founder Dr Junjie Yan, we operate at the cuttingedge in our field, advancing AI from research to implementation.\nOur organizational structure is intentionally flat and nimble, with"
+          },
+          {
+            "document_id": "doc_6acaa8fd",
+            "document_name": "20260110_MiniMax_Global_Offering_Prospectus.pdf",
+            "chunk_id": "066c344074e37948edf43cca45be0061",
+            "page_number": 258,
+            "bounding_box": null,
+            "text": "risecustomers across the globe Our unified model architecture and organic user acquisitionstrategy have facilitated rapid expansion across more than 200 countries and regions as ofSeptember 30, 2025.\n"
+          }
+        ]
+      },
+      {
+        "text": "Our Flat and Nimble Organizational Structure\nOur organizational structure is intentionally flat and nimble, with no more than three\nlayers beneath the",
+        "references": [
+          {
+            "document_id": "doc_6acaa8fd",
+            "document_name": "20260110_MiniMax_Global_Offering_Prospectus.pdf",
+            "chunk_id": "1b259944e5f99f378d07a54f8b75217a",
+            "page_number": 284,
+            "bounding_box": null,
+            "text": "perateswithout formal rankings This fosters collaboration within and across departments andeliminates redundant reporting lines.\nOur Culture and Recruiting Practices\nWe promote research and creativity"
+          },
+          {
+            "document_id": "doc_6acaa8fd",
+            "document_name": "20260110_MiniMax_Global_Offering_Prospectus.pdf",
+            "chunk_id": "7fcfd519d15c408c9fdaaca8c63b7958",
+            "page_number": 284,
+            "bounding_box": null,
+            "text": "ons and continuous improvement We encourage individuals to explore beyond theirinitial roles and responsibilities, actively supporting them in expanding their skill sets andtaking initiative to embrac"
+          }
+        ]
+      },
+      {
+        "text": "the cost of thefinancial asset, in which case, such gains are recorded in other comprehensive income Equity investmentsdesignated at fair value throug",
+        "references": [
+          {
+            "document_id": "doc_0f13a28a",
+            "document_name": "20260110_MiniMax_Accountants_Report.pdf",
+            "chunk_id": "5b8733a0afcbd4d21aa5464185faae6e",
+            "page_number": 24,
+            "bounding_box": null,
+            "text": "in other comprehensive income Equity investmentsdesignated at fair value through other comprehensive income are not subject to impairment assessment.\nFinancial assets at fair value through profit or l"
+          },
+          {
+            "document_id": "doc_6acaa8fd",
+            "document_name": "20260110_MiniMax_Global_Offering_Prospectus.pdf",
+            "chunk_id": "c3873cc83db5e697f9a63c5f89c51814",
+            "page_number": 561,
+            "bounding_box": null,
+            "text": "in other comprehensive income Equity investmentsdesignated at fair value through other comprehensive income are not subject to impairment assessment.\nFinancial assets at fair value through profit or l"
+          }
+        ]
+      }
+    ],
+    "created_at": "2026-02-05T08:07:22.256876",
+    "updated_at": "2026-02-05T08:07:24.542225",
+    "ai_answer": "Based on the available documentation: two companies founded in the Asia-Pacific region to achieve global-scale commercialization\nof multiple AI native products Our offerings serve both individual users and enterprisecustomers across the g Our Flat and Nimble Organizational Structure\nOur organizational structure is intentionally flat and nimble, with no more than three\nlayers beneath the CEO and structure teams around project-based miss the cost of thefinancial asset, in which case, such gains are recorded in other comprehensive income Equity investmentsdesignated at fair value through other comprehensive income are not subject to im",
+    "confidence_score": 0.625
+  },
+  "ans_c33ca5e6": {
+    "id": "ans_c33ca5e6",
+    "question_id": "q_176b1fcb",
+    "project_id": "proj_c760d99b",
+    "status": "GENERATED",
+    "is_answerable": true,
+    "citations": [
+      {
+        "text": "derecognised upon disposal or when no future economic benefits are expected from its use or disposal Anygain or loss on disposal or retirement recogni",
+        "references": [
+          {
+            "document_id": "doc_0f13a28a",
+            "document_name": "20260110_MiniMax_Accountants_Report.pdf",
+            "chunk_id": "1627bd7dbfbaa7a8034a9ca4a737bbc3",
+            "page_number": 22,
+            "bounding_box": null,
+            "text": "ected from its use or disposal Anygain or loss on disposal or retirement recognised in the statement of profit or loss in the year the asset isderecognised is the difference between the net sales proc"
+          },
+          {
+            "document_id": "doc_6acaa8fd",
+            "document_name": "20260110_MiniMax_Global_Offering_Prospectus.pdf",
+            "chunk_id": "d8dc57984d6ed662572d051f06c31227",
+            "page_number": 559,
+            "bounding_box": null,
+            "text": "ected from its use or disposal Anygain or loss on disposal or retirement recognised in the statement of profit or loss in the year the asset isderecognised is the difference between the net sales proc"
+          }
+        ]
+      },
+      {
+        "text": "n addition, our Company is a Pre-Commercial Company (as defined in Chapter 18C of the Listing Rules) Pre-Commercial Co mpanies are Specialist Technolo",
+        "references": [
+          {
+            "document_id": "doc_6acaa8fd",
+            "document_name": "20260110_MiniMax_Global_Offering_Prospectus.pdf",
+            "chunk_id": "a395b117d6405e7ec7a7397ae4704477",
+            "page_number": 2,
+            "bounding_box": null,
+            "text": "pter 18C of the Listing Rules) Pre-Commercial Co mpanies are Specialist Technology Companies that cannot meet\nthe revenue requirement as set out in Rule 18C.03(4) of the Listing Rules, and so are subj"
+          },
+          {
+            "document_id": "doc_6acaa8fd",
+            "document_name": "20260110_MiniMax_Global_Offering_Prospectus.pdf",
+            "chunk_id": "11c553d0e1afa5e70ebd0be8041a5e7d",
+            "page_number": 2,
+            "bounding_box": null,
+            "text": "ted voting rights upon Listing Prospective investors should be aware of the potential risks of investin g in a company with a WVR structure, in particular that the WVR\nBeneficiary, whose interests may"
+          }
+        ]
+      },
+      {
+        "text": "ence over the outcome of our Shareholders\u2019 resolutions, irrespective\nof how other Shareholders vote For further information about the risks associated",
+        "references": [
+          {
+            "document_id": "doc_6acaa8fd",
+            "document_name": "20260110_MiniMax_Global_Offering_Prospectus.pdf",
+            "chunk_id": "d7d67b36e1e3029146ef522237d476f4",
+            "page_number": 2,
+            "bounding_box": null,
+            "text": "Related to the WVR Structure\u201d Prospective investors should make the decision\nto in our Company only after due and careful consideration.\nATTENTION\nWe have adopted a fully electronic application proces"
+          },
+          {
+            "document_id": "doc_6acaa8fd",
+            "document_name": "20260110_MiniMax_Global_Offering_Prospectus.pdf",
+            "chunk_id": "f6128b309ec0e1f0c42f630c1e0b3866",
+            "page_number": 3,
+            "bounding_box": null,
+            "text": "IMPORTANT NOTICE TO INVESTORS OF HONG KONG OFFER SHARES\nFULLY ELECTRONIC APPLICATION PROCESS\nThe Company has adopted a fully electronic application process for the Hong Kong\nPublic Offering.\nThis pros"
+          }
+        ]
+      }
+    ],
+    "created_at": "2026-02-05T08:07:22.257794",
+    "updated_at": "2026-02-05T08:07:24.811032",
+    "ai_answer": "Based on the available documentation: derecognised upon disposal or when no future economic benefits are expected from its use or disposal Anygain or loss on disposal or retirement recognised in the statement of profit or loss in the year n addition, our Company is a Pre-Commercial Company (as defined in Chapter 18C of the Listing Rules) Pre-Commercial Co mpanies are Specialist Technology Companies that cannot meet\nthe revenue requirem ence over the outcome of our Shareholders\u2019 resolutions, irrespective\nof how other Shareholders vote For further information about the risks associated with the WVR structure, see \u201cRisk Factors \u2014 Risks",
+    "confidence_score": 0.5714285714285714
+  },
+  "ans_e22d5260": {
+    "id": "ans_e22d5260",
+    "question_id": "q_81af8865",
+    "project_id": "proj_c760d99b",
+    "status": "GENERATED",
+    "is_answerable": true,
+    "citations": [
+      {
+        "text": "whereby employees render services in exchange for equityinstruments (\u201cequity-settled transactions\u201d) The cost of equity-settled transactions with emplo",
+        "references": [
+          {
+            "document_id": "doc_0f13a28a",
+            "document_name": "20260110_MiniMax_Accountants_Report.pdf",
+            "chunk_id": "63bbb6299ea49da403f7fc0d2373827f",
+            "page_number": 29,
+            "bounding_box": null,
+            "text": "date at which they are granted The fair value is determined by an externalvaluer using a binomial model, further details of which are given in note 26 to the Historical FinancialInformation.\nThe cost "
+          },
+          {
+            "document_id": "doc_6acaa8fd",
+            "document_name": "20260110_MiniMax_Global_Offering_Prospectus.pdf",
+            "chunk_id": "e562e6308494268f85b7a9ba6f5348e1",
+            "page_number": 566,
+            "bounding_box": null,
+            "text": "date at which they are granted The fair value is determined by an externalvaluer using a binomial model, further details of which are given in note 26 to the Historical FinancialInformation.\nThe cost "
+          }
+        ]
+      },
+      {
+        "text": "8 DIRECTORS\u2019 AND CHIEF EXECUTIVE\u2019S REMUNERATION\nDirectors\u2019 and chief executive\u2019s remuneration for the year/period, disclosed pursuant to the Listing R",
+        "references": [
+          {
+            "document_id": "doc_0f13a28a",
+            "document_name": "20260110_MiniMax_Accountants_Report.pdf",
+            "chunk_id": "637bb3f15b4d2efa25199389c0564f76",
+            "page_number": 35,
+            "bounding_box": null,
+            "text": "8 DIRECTORS\u2019 AND CHIEF EXECUTIVE\u2019S REMUNERATION\nDirectors\u2019 and chief executive\u2019s remuneration for the year/period, disclosed pursuant to the Listing Rules,\nsection 383(1)(a), (b), (c) and (f) of the H"
+          },
+          {
+            "document_id": "doc_6acaa8fd",
+            "document_name": "20260110_MiniMax_Global_Offering_Prospectus.pdf",
+            "chunk_id": "b2795797ee8e0ea8c3b741264de61f85",
+            "page_number": 572,
+            "bounding_box": null,
+            "text": "8 DIRECTORS\u2019 AND CHIEF EXECUTIVE\u2019S REMUNERATION\nDirectors\u2019 and chief executive\u2019s remuneration for the year/period, disclosed pursuant to the Listing Rules,\nsection 383(1)(a), (b), (c) and (f) of the H"
+          }
+        ]
+      },
+      {
+        "text": "OUR MODELS AND PRODUCT OFFERINGS\nOur Foundation Model Suite\nWe have leveraged our R&D capabilities to build a comprehensive suite of foundation\nmodels",
+        "references": [
+          {
+            "document_id": "doc_6acaa8fd",
+            "document_name": "20260110_MiniMax_Global_Offering_Prospectus.pdf",
+            "chunk_id": "f27a03d3c7ea917a446435e4e313e56c",
+            "page_number": 13,
+            "bounding_box": null,
+            "text": "brid-attention reasoning model It adopts a hybrid MoE architecturecombined with a lightning attention mechanism, enabling long-context processing with acontext window of up to 1 million tokens and sup"
+          },
+          {
+            "document_id": "doc_6acaa8fd",
+            "document_name": "20260110_MiniMax_Global_Offering_Prospectus.pdf",
+            "chunk_id": "a29b9a44a4fa8b3b24cf4a181f2d2430",
+            "page_number": 248,
+            "bounding_box": null,
+            "text": "brid-attention reasoning model It adopts a hybrid MoE architecturecombined with a lightning attention mechanism, enabling long-context processing with acontext window of up to 1 million tokens and sup"
+          }
+        ]
+      }
+    ],
+    "created_at": "2026-02-05T08:07:22.259030",
+    "updated_at": "2026-02-05T08:07:25.083865",
+    "ai_answer": "Based on the available documentation: whereby employees render services in exchange for equityinstruments (\u201cequity-settled transactions\u201d) The cost of equity-settled transactions with employees is measuredby reference to the fair value at  8 DIRECTORS\u2019 AND CHIEF EXECUTIVE\u2019S REMUNERATION\nDirectors\u2019 and chief executive\u2019s remuneration for the year/period, disclosed pursuant to the Listing Rules,\nsection 383(1)(a), (b), (c) and (f) of the H OUR MODELS AND PRODUCT OFFERINGS\nOur Foundation Model Suite\nWe have leveraged our R&D capabilities to build a comprehensive suite of foundation\nmodels, and maintain competitiveness across various moda",
+    "confidence_score": 0.5
+  },
+  "ans_3f41be13": {
+    "id": "ans_3f41be13",
+    "question_id": "q_b5e03dbb",
+    "project_id": "proj_c760d99b",
+    "status": "GENERATED",
+    "is_answerable": true,
+    "citations": [
+      {
+        "text": "the cost of thefinancial asset, in which case, such gains are recorded in other comprehensive income Equity investmentsdesignated at fair value throug",
+        "references": [
+          {
+            "document_id": "doc_0f13a28a",
+            "document_name": "20260110_MiniMax_Accountants_Report.pdf",
+            "chunk_id": "5b8733a0afcbd4d21aa5464185faae6e",
+            "page_number": 24,
+            "bounding_box": null,
+            "text": "in other comprehensive income Equity investmentsdesignated at fair value through other comprehensive income are not subject to impairment assessment.\nFinancial assets at fair value through profit or l"
+          },
+          {
+            "document_id": "doc_6acaa8fd",
+            "document_name": "20260110_MiniMax_Global_Offering_Prospectus.pdf",
+            "chunk_id": "c3873cc83db5e697f9a63c5f89c51814",
+            "page_number": 561,
+            "bounding_box": null,
+            "text": "in other comprehensive income Equity investmentsdesignated at fair value through other comprehensive income are not subject to impairment assessment.\nFinancial assets at fair value through profit or l"
+          }
+        ]
+      },
+      {
+        "text": ", it evaluates if, and to what extent, it has retained the risk and rewards of ownershipof the asset When it has neither transferred nor retained subs",
+        "references": [
+          {
+            "document_id": "doc_0f13a28a",
+            "document_name": "20260110_MiniMax_Accountants_Report.pdf",
+            "chunk_id": "49f473e65d710bb303ee1b259319ffe4",
+            "page_number": 24,
+            "bounding_box": null,
+            "text": "Group\u2019s continuing involvement In that case, the Group also recognises an associated liability The transferredasset and the associated liability are measured on a basis that reflects the rights and ob"
+          },
+          {
+            "document_id": "doc_6acaa8fd",
+            "document_name": "20260110_MiniMax_Global_Offering_Prospectus.pdf",
+            "chunk_id": "f2351b48ad1fac22a9680dc257a67889",
+            "page_number": 561,
+            "bounding_box": null,
+            "text": "Group\u2019s continuing involvement In that case, the Group also recognises an associated liability The transferredasset and the associated liability are measured on a basis that reflects the rights and ob"
+          }
+        ]
+      },
+      {
+        "text": "g of the Offer Shares or the distribution of this Prospectus in anyjurisdiction other than Hong Kong The distribution of this Prospectus and the offer",
+        "references": [
+          {
+            "document_id": "doc_6acaa8fd",
+            "document_name": "20260110_MiniMax_Global_Offering_Prospectus.pdf",
+            "chunk_id": "c552fbefbb76bde4eab64a185308cd98",
+            "page_number": 9,
+            "bounding_box": null,
+            "text": "isdiction other than Hong Kong The distribution of this Prospectus and the offeringand sale of the Offer Shares in other jurisdictions are subject to restrictions and may notbe made except as permitte"
+          },
+          {
+            "document_id": "doc_6acaa8fd",
+            "document_name": "20260110_MiniMax_Global_Offering_Prospectus.pdf",
+            "chunk_id": "8569d2ce4247a64c8c76e822088b6222",
+            "page_number": 137,
+            "bounding_box": null,
+            "text": "ke such an offer or invitation The distribution of this Prospectusand the offering and sales of the Offer Shares in other jurisdictions are subject to restrictionsand may not be made except as permitt"
+          }
+        ]
+      }
+    ],
+    "created_at": "2026-02-05T08:07:22.260028",
+    "updated_at": "2026-02-05T08:07:25.358394",
+    "ai_answer": "Based on the available documentation: the cost of thefinancial asset, in which case, such gains are recorded in other comprehensive income Equity investmentsdesignated at fair value through other comprehensive income are not subject to im , it evaluates if, and to what extent, it has retained the risk and rewards of ownershipof the asset When it has neither transferred nor retained substantially all the risks and rewards of the asset n g of the Offer Shares or the distribution of this Prospectus in anyjurisdiction other than Hong Kong The distribution of this Prospectus and the offeringand sale of the Offer Shares in other jurisdict",
+    "confidence_score": 0.42857142857142855
+  },
+  "ans_c050e4d9": {
+    "id": "ans_c050e4d9",
+    "question_id": "q_14db4f1e",
+    "project_id": "proj_c760d99b",
+    "status": "GENERATED",
+    "is_answerable": true,
+    "citations": [
+      {
+        "text": "B PUBLICATION OF RESULTS\nResults of Allocation\nYou can check whether you are successfully allocated any Hong Kong Offer Shares\nthrough:\nPlatform Date/",
+        "references": [
+          {
+            "document_id": "doc_6acaa8fd",
+            "document_name": "20260110_MiniMax_Global_Offering_Prospectus.pdf",
+            "chunk_id": "11b5e2f15277c9efc86483b908ac9d67",
+            "page_number": 528,
+            "bounding_box": null,
+            "text": "B PUBLICATION OF RESULTS\nResults of Allocation\nYou can check whether you are successfully allocated any Hong Kong Offer Shares\nthrough:\nPlatform Date/Time\nApplying through HK eIPO White Form service o"
+          },
+          {
+            "document_id": "doc_6acaa8fd",
+            "document_name": "20260110_MiniMax_Global_Offering_Prospectus.pdf",
+            "chunk_id": "36290a65f0a5d038d9edae872cb0deb1",
+            "page_number": 525,
+            "bounding_box": null,
+            "text": "bers displayed are redacted.\n6 Terms and Conditions of An Application\nBy applying for Hong Kong Offer Shares through the HK eIPO White Form service or\nHKSCC EIPO channel, you (or as the case may be, H"
+          }
+        ]
+      },
+      {
+        "text": "our business, financial conditionand results of operations.\nWe aim to expand our user base globally However, we may not succeed in this endeavor\nand o",
+        "references": [
+          {
+            "document_id": "doc_6acaa8fd",
+            "document_name": "20260110_MiniMax_Global_Offering_Prospectus.pdf",
+            "chunk_id": "609cb8e3195b93b635cb674216b3a9d0",
+            "page_number": 82,
+            "bounding_box": null,
+            "text": "users across different regions For example, given the high regulatory andmarket access challenges in specific markets, we may not actively explore these markets in theshort term, which could limit our"
+          },
+          {
+            "document_id": "doc_6acaa8fd",
+            "document_name": "20260110_MiniMax_Global_Offering_Prospectus.pdf",
+            "chunk_id": "ebc210cbc0e745777e7cb60c14333c2e",
+            "page_number": 82,
+            "bounding_box": null,
+            "text": "expand our user base globally However, we may not succeed in this endeavor\nand our success will depend on our ability to provide foundation model products that meet thediverse needs of users across di"
+          }
+        ]
+      },
+      {
+        "text": "As at 31 December 2024\nWithin 1 year 1 to 5 years Total\nUSD\u2019000 USD\u2019000 USD\u2019000\nLease liabilities /H1118/H1118/H1118/H1118/H1118/H1118/H1118/H1118/H11",
+        "references": [
+          {
+            "document_id": "doc_0f13a28a",
+            "document_name": "20260110_MiniMax_Accountants_Report.pdf",
+            "chunk_id": "941f6631143ac93e4a3dfb3009dac483",
+            "page_number": 67,
+            "bounding_box": null,
+            "text": "As at 31 December 2024\nWithin 1 year 1 to 5 years Total\nUSD\u2019000 USD\u2019000 USD\u2019000\nLease liabilities /H1118/H1118/H1118/H1118/H1118/H1118/H1118/H1118/H1118/H1118/H1118/H1118/H1118/H1118/H1118/H1118/H1118"
+          },
+          {
+            "document_id": "doc_6acaa8fd",
+            "document_name": "20260110_MiniMax_Global_Offering_Prospectus.pdf",
+            "chunk_id": "36e04141b7abdbcdb9b5674270a265f2",
+            "page_number": 604,
+            "bounding_box": null,
+            "text": "As at 31 December 2024\nWithin 1 year 1 to 5 years Total\nUSD\u2019000 USD\u2019000 USD\u2019000\nLease liabilities /H1118/H1118/H1118/H1118/H1118/H1118/H1118/H1118/H1118/H1118/H1118/H1118/H1118/H1118/H1118/H1118/H1118"
+          }
+        ]
+      }
+    ],
+    "created_at": "2026-02-05T08:07:22.260993",
+    "updated_at": "2026-02-05T08:07:25.636204",
+    "ai_answer": "Based on the available documentation: B PUBLICATION OF RESULTS\nResults of Allocation\nYou can check whether you are successfully allocated any Hong Kong Offer Shares\nthrough:\nPlatform Date/Time\nApplying through HK eIPO White Form service o our business, financial conditionand results of operations.\nWe aim to expand our user base globally However, we may not succeed in this endeavor\nand our success will depend on our ability to provide f As at 31 December 2024\nWithin 1 year 1 to 5 years Total\nUSD\u2019000 USD\u2019000 USD\u2019000\nLease liabilities /H1118/H1118/H1118/H1118/H1118/H1118/H1118/H1118/H1118/H1118/H1118/H1118/H1118/H1118/H1118/H1118/H1118",
+    "confidence_score": 0.5
+  },
+  "ans_890835dc": {
+    "id": "ans_890835dc",
+    "question_id": "q_6ffd7ae0",
+    "project_id": "proj_c760d99b",
+    "status": "GENERATED",
+    "is_answerable": true,
+    "citations": [
+      {
+        "text": "OUR STRENGTHS\nOur core strength resides in the scalability embedded across our key operational pillars.\nThis includes our algorithms, model training a",
+        "references": [
+          {
+            "document_id": "doc_6acaa8fd",
+            "document_name": "20260110_MiniMax_Global_Offering_Prospectus.pdf",
+            "chunk_id": "8620f229966d5d7dcf70ffe099591ab4",
+            "page_number": 21,
+            "bounding_box": null,
+            "text": "OUR STRENGTHS\nOur core strength resides in the scalability embedded across our key operational pillars.\nThis includes our algorithms, model training and inference infrastructure, commercializationroad"
+          },
+          {
+            "document_id": "doc_6acaa8fd",
+            "document_name": "20260110_MiniMax_Global_Offering_Prospectus.pdf",
+            "chunk_id": "6803b3807eed4423419fb39e7cbdd9a3",
+            "page_number": 255,
+            "bounding_box": null,
+            "text": "creasedduring the same periods The decrease was primarily attributable to our strategic adjustment toreduce marketing and promotional spending, with an increased emphasis on organic useracquisition an"
+          }
+        ]
+      },
+      {
+        "text": "ding period in 2025, while the number of new users of Talkie/Xingye decreasedduring the same periods The decrease was primarily attributable to our st",
+        "references": [
+          {
+            "document_id": "doc_6acaa8fd",
+            "document_name": "20260110_MiniMax_Global_Offering_Prospectus.pdf",
+            "chunk_id": "6803b3807eed4423419fb39e7cbdd9a3",
+            "page_number": 255,
+            "bounding_box": null,
+            "text": "creasedduring the same periods The decrease was primarily attributable to our strategic adjustment toreduce marketing and promotional spending, with an increased emphasis on organic useracquisition an"
+          },
+          {
+            "document_id": "doc_6acaa8fd",
+            "document_name": "20260110_MiniMax_Global_Offering_Prospectus.pdf",
+            "chunk_id": "8620f229966d5d7dcf70ffe099591ab4",
+            "page_number": 21,
+            "bounding_box": null,
+            "text": "OUR STRENGTHS\nOur core strength resides in the scalability embedded across our key operational pillars.\nThis includes our algorithms, model training and inference infrastructure, commercializationroad"
+          }
+        ]
+      },
+      {
+        "text": "n in-house infrastructure team and\nbegan developing our proprietary training and inference framework Our self-developed AIinfrastructure offers a comp",
+        "references": [
+          {
+            "document_id": "doc_6acaa8fd",
+            "document_name": "20260110_MiniMax_Global_Offering_Prospectus.pdf",
+            "chunk_id": "4bd255a321040826c09f50b5e6350f1c",
+            "page_number": 282,
+            "bounding_box": null,
+            "text": "our foundation modelofferings Below are key highlights of our self-developed AI infrastructure:\nHigh-Efficiency Training and Inference Framework\nOur training and inference framework is the cornerstone"
+          },
+          {
+            "document_id": "doc_6acaa8fd",
+            "document_name": "20260110_MiniMax_Global_Offering_Prospectus.pdf",
+            "chunk_id": "96f6c5de3aee27c624c697eb4e2006c5",
+            "page_number": 282,
+            "bounding_box": null,
+            "text": "automated operational support We not only possess technological advantages but alsoensure that each training and inference task can be executed in a stable environment, therebymaximizing return on inv"
+          }
+        ]
+      }
+    ],
+    "created_at": "2026-02-05T08:07:22.262328",
+    "updated_at": "2026-02-05T08:07:25.900769",
+    "ai_answer": "Based on the available documentation: OUR STRENGTHS\nOur core strength resides in the scalability embedded across our key operational pillars.\nThis includes our algorithms, model training and inference infrastructure, commercializationroad ding period in 2025, while the number of new users of Talkie/Xingye decreasedduring the same periods The decrease was primarily attributable to our strategic adjustment toreduce marketing and promotio n in-house infrastructure team and\nbegan developing our proprietary training and inference framework Our self-developed AIinfrastructure offers a comprehensive and flexible model training and inferenc",
+    "confidence_score": 0.625
+  },
+  "ans_5cf55993": {
+    "id": "ans_5cf55993",
+    "question_id": "q_8e862e8a",
+    "project_id": "proj_c760d99b",
+    "status": "GENERATED",
+    "is_answerable": true,
+    "citations": [
+      {
+        "text": "In preparation of the Listing, the Company has sought the following waivers from strict\ncompliance with the relevant provisions of the Listing Rules a",
+        "references": [
+          {
+            "document_id": "doc_6acaa8fd",
+            "document_name": "20260110_MiniMax_Global_Offering_Prospectus.pdf",
+            "chunk_id": "32f09a48f32504406e07048460915e50",
+            "page_number": 126,
+            "bounding_box": null,
+            "text": "In preparation of the Listing, the Company has sought the following waivers from strict\ncompliance with the relevant provisions of the Listing Rules and exemption from theCompanies (Winding Up and Mis"
+          },
+          {
+            "document_id": "doc_6acaa8fd",
+            "document_name": "20260110_MiniMax_Global_Offering_Prospectus.pdf",
+            "chunk_id": "5bca5ebd509f38bfef866bb1e3717647",
+            "page_number": 132,
+            "bounding_box": null,
+            "text": "In light of the above, our Directors believe that the grant of the waiver and exemption\nsought under this application and the non-disclosure of the required information will not hinderpotential invest"
+          }
+        ]
+      },
+      {
+        "text": "ng Pengcheng and Mr HuangGuobin Dr Zhu Huaxing is the chairman of the Corporate Governance Committee Theprimary duties of the corporate governance com",
+        "references": [
+          {
+            "document_id": "doc_6acaa8fd",
+            "document_name": "20260110_MiniMax_Global_Offering_Prospectus.pdf",
+            "chunk_id": "fad83d8df509b800f8a90746ccebdef8",
+            "page_number": 370,
+            "bounding_box": null,
+            "text": "Corporate Governance Committee Theprimary duties of the corporate governance committee are, among other things, to ensure thatthe Company is operated and managed for the benefit of all Shareholders an"
+          },
+          {
+            "document_id": "doc_6acaa8fd",
+            "document_name": "20260110_MiniMax_Global_Offering_Prospectus.pdf",
+            "chunk_id": "c3f442d3732bacc1c98e88588f60b176",
+            "page_number": 370,
+            "bounding_box": null,
+            "text": "ight structures of the Company For details of their experience in corporate governance relatedmatters, see the biographies of the independent non-executive Directors in the section headed\u201c\u2014 Independen"
+          }
+        ]
+      },
+      {
+        "text": "with the Listing Rules and safeguards relating to the weighted votingright structures of the Company For details of their experience in corporate gove",
+        "references": [
+          {
+            "document_id": "doc_6acaa8fd",
+            "document_name": "20260110_MiniMax_Global_Offering_Prospectus.pdf",
+            "chunk_id": "c3f442d3732bacc1c98e88588f60b176",
+            "page_number": 370,
+            "bounding_box": null,
+            "text": "ight structures of the Company For details of their experience in corporate governance relatedmatters, see the biographies of the independent non-executive Directors in the section headed\u201c\u2014 Independen"
+          },
+          {
+            "document_id": "doc_6acaa8fd",
+            "document_name": "20260110_MiniMax_Global_Offering_Prospectus.pdf",
+            "chunk_id": "89724bf7fa26cda99cb6e1a797438f30",
+            "page_number": 371,
+            "bounding_box": null,
+            "text": "(g) to confirm, on an annual basis, that the beneficiaries of weighted voting rights have\nbeen members of the Board throughout the year and that no matters under Rule8A.17 of the Listing Rules have oc"
+          }
+        ]
+      }
+    ],
+    "created_at": "2026-02-05T08:07:22.263464",
+    "updated_at": "2026-02-05T08:07:26.182024",
+    "ai_answer": "Based on the available documentation: In preparation of the Listing, the Company has sought the following waivers from strict\ncompliance with the relevant provisions of the Listing Rules and exemption from theCompanies (Winding Up and Mis ng Pengcheng and Mr HuangGuobin Dr Zhu Huaxing is the chairman of the Corporate Governance Committee Theprimary duties of the corporate governance committee are, among other things, to ensure thatthe  with the Listing Rules and safeguards relating to the weighted votingright structures of the Company For details of their experience in corporate governance relatedmatters, see the biographies of the ",
+    "confidence_score": 0.6666666666666666
+  },
+  "ans_1ac94596": {
+    "id": "ans_1ac94596",
+    "question_id": "q_01d29e03",
+    "project_id": "proj_c760d99b",
+    "status": "GENERATED",
+    "is_answerable": true,
+    "citations": [
+      {
+        "text": "the cost of thefinancial asset, in which case, such gains are recorded in other comprehensive income Equity investmentsdesignated at fair value throug",
+        "references": [
+          {
+            "document_id": "doc_0f13a28a",
+            "document_name": "20260110_MiniMax_Accountants_Report.pdf",
+            "chunk_id": "5b8733a0afcbd4d21aa5464185faae6e",
+            "page_number": 24,
+            "bounding_box": null,
+            "text": "in other comprehensive income Equity investmentsdesignated at fair value through other comprehensive income are not subject to impairment assessment.\nFinancial assets at fair value through profit or l"
+          },
+          {
+            "document_id": "doc_6acaa8fd",
+            "document_name": "20260110_MiniMax_Global_Offering_Prospectus.pdf",
+            "chunk_id": "c3873cc83db5e697f9a63c5f89c51814",
+            "page_number": 561,
+            "bounding_box": null,
+            "text": "in other comprehensive income Equity investmentsdesignated at fair value through other comprehensive income are not subject to impairment assessment.\nFinancial assets at fair value through profit or l"
+          }
+        ]
+      },
+      {
+        "text": ", it evaluates if, and to what extent, it has retained the risk and rewards of ownershipof the asset When it has neither transferred nor retained subs",
+        "references": [
+          {
+            "document_id": "doc_0f13a28a",
+            "document_name": "20260110_MiniMax_Accountants_Report.pdf",
+            "chunk_id": "49f473e65d710bb303ee1b259319ffe4",
+            "page_number": 24,
+            "bounding_box": null,
+            "text": "Group\u2019s continuing involvement In that case, the Group also recognises an associated liability The transferredasset and the associated liability are measured on a basis that reflects the rights and ob"
+          },
+          {
+            "document_id": "doc_6acaa8fd",
+            "document_name": "20260110_MiniMax_Global_Offering_Prospectus.pdf",
+            "chunk_id": "f2351b48ad1fac22a9680dc257a67889",
+            "page_number": 561,
+            "bounding_box": null,
+            "text": "Group\u2019s continuing involvement In that case, the Group also recognises an associated liability The transferredasset and the associated liability are measured on a basis that reflects the rights and ob"
+          }
+        ]
+      },
+      {
+        "text": "g of the Offer Shares or the distribution of this Prospectus in anyjurisdiction other than Hong Kong The distribution of this Prospectus and the offer",
+        "references": [
+          {
+            "document_id": "doc_6acaa8fd",
+            "document_name": "20260110_MiniMax_Global_Offering_Prospectus.pdf",
+            "chunk_id": "c552fbefbb76bde4eab64a185308cd98",
+            "page_number": 9,
+            "bounding_box": null,
+            "text": "isdiction other than Hong Kong The distribution of this Prospectus and the offeringand sale of the Offer Shares in other jurisdictions are subject to restrictions and may notbe made except as permitte"
+          },
+          {
+            "document_id": "doc_6acaa8fd",
+            "document_name": "20260110_MiniMax_Global_Offering_Prospectus.pdf",
+            "chunk_id": "8569d2ce4247a64c8c76e822088b6222",
+            "page_number": 137,
+            "bounding_box": null,
+            "text": "ke such an offer or invitation The distribution of this Prospectusand the offering and sales of the Offer Shares in other jurisdictions are subject to restrictionsand may not be made except as permitt"
+          }
+        ]
+      }
+    ],
+    "created_at": "2026-02-05T08:07:22.264496",
+    "updated_at": "2026-02-05T08:07:26.456652",
+    "ai_answer": "Based on the available documentation: the cost of thefinancial asset, in which case, such gains are recorded in other comprehensive income Equity investmentsdesignated at fair value through other comprehensive income are not subject to im , it evaluates if, and to what extent, it has retained the risk and rewards of ownershipof the asset When it has neither transferred nor retained substantially all the risks and rewards of the asset n g of the Offer Shares or the distribution of this Prospectus in anyjurisdiction other than Hong Kong The distribution of this Prospectus and the offeringand sale of the Offer Shares in other jurisdict",
+    "confidence_score": 0.5714285714285714
+  }
+}
