@@ -2,19 +2,6 @@
 
 A full-stack AI-powered system for automating due diligence questionnaire responses with document indexing, citation tracking, and answer evaluation.
 
-## 📸 Screenshots
-
-> **Note:** See the [screenshots](./screenshots) directory for detailed UI captures.
-
-| Projects Dashboard | Project Detail | Document Manager |
-|:-----------------:|:--------------:|:----------------:|
-| ![Projects](./screenshots/project-list.png) | ![Detail](./screenshots/project-detail.png) | ![Documents](./screenshots/document-manager.png) |
-| View and manage all questionnaire projects | Collapsible sections with AI-generated answers | Drag-and-drop document upload |
-
-*Additional screenshots available in the [screenshots](./screenshots) folder.*
-
----
-
 ## 🚀 Quick Start
 
 ```bash
@@ -73,7 +60,6 @@ Backend (FastAPI + Python)
 - **[DOCUMENTATION_STATUS.md](DOCUMENTATION_STATUS.md)** - Requirements compliance report
 
 ### Additional Resources
-- **[screenshots/](./screenshots)** - Application UI screenshots
 - **[data/](./data)** - Sample PDFs for testing
 
 ## 🧪 Testing with Sample Data
