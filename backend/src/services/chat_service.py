@@ -38,11 +38,10 @@ class ChatService:
             Dict with answer, citations, confidence_score, relevant_chunks
         """
         # Step 1: Search Layer 1 (answer index) for relevant chunks
-        answer_results = self.vector_store.search(
+        answer_results = self.vector_store.search_for_answer(
             query=question,
-            index_type="answer",
-            top_k=5,
-            document_ids=document_ids
+            document_ids=document_ids,
+            top_k=5
         )
         
         if not answer_results:
@@ -57,11 +56,10 @@ class ChatService:
         answer_text = self._synthesize_answer(answer_results, question)
         
         # Step 3: Search Layer 2 (citation index) for precise references
-        citation_results = self.vector_store.search(
-            query=answer_text,
-            index_type="citation",
-            top_k=10,
-            document_ids=document_ids
+        citation_results = self.vector_store.search_for_citations(
+            text=answer_text,
+            document_ids=document_ids,
+            top_k=10
         )
         
         # Step 4: Build citations
