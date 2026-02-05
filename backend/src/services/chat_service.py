@@ -2,7 +2,6 @@
 
 from typing import List, Dict, Any, Optional
 from ..storage.vector_store import vector_store
-from ..storage.database import database
 
 
 class ChatService:
@@ -18,7 +17,6 @@ class ChatService:
     
     def __init__(self):
         self.vector_store = vector_store
-        self.db = database
     
     def generate_chat_response(
         self,
