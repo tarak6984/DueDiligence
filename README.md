@@ -2,6 +2,12 @@
 
 A full-stack AI-powered system for automating due diligence questionnaire responses with document indexing, citation tracking, and answer evaluation.
 
+## 📸 Screenshots
+
+> Coming soon - UI screenshots will be added here.
+
+---
+
 ## 🚀 Quick Start
 
 ```bash
