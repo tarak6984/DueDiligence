@@ -27,6 +27,12 @@ class ChatResponse(BaseModel):
     citations: List[dict]
     confidence_score: float
     relevant_chunks: int
+    reasoning_type: Optional[str] = None
+    query_type: Optional[str] = None
+    complexity: Optional[str] = None
+    reasoning_steps: Optional[List[dict]] = []
+    context_used: Optional[bool] = False
+    needs_clarification: Optional[bool] = False
 
 
 @router.post("/ask", response_model=ChatResponse)
@@ -40,17 +46,31 @@ async def ask_question(request: ChatRequest):
     Note: Chat operates independently from questionnaire projects to avoid conflicts.
     """
     try:
+        # Convert ChatMessage objects to dicts for the service
+        conversation_history_dicts = None
+        if request.conversation_history:
+            conversation_history_dicts = [
+                {"role": msg.role, "content": msg.content}
+                for msg in request.conversation_history
+            ]
+        
         result = chat_service.generate_chat_response(
             question=request.message,
             document_ids=request.document_ids,
-            conversation_history=request.conversation_history
+            conversation_history=conversation_history_dicts
         )
         
         return ChatResponse(
             answer=result["answer"],
             citations=result["citations"],
             confidence_score=result["confidence_score"],
-            relevant_chunks=result["relevant_chunks"]
+            relevant_chunks=result["relevant_chunks"],
+            reasoning_type=result.get("reasoning_type"),
+            query_type=result.get("query_type"),
+            complexity=result.get("complexity"),
+            reasoning_steps=result.get("reasoning_steps", []),
+            context_used=result.get("context_used", False),
+            needs_clarification=result.get("needs_clarification", False)
         )
     except ValueError as e:
         raise HTTPException(status_code=400, detail=str(e))

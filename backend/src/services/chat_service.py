@@ -2,21 +2,34 @@
 
 from typing import List, Dict, Any, Optional
 from ..storage.vector_store import vector_store
+from .query_analyzer import query_analyzer
+from .reasoning_engine import reasoning_engine
+from .context_manager import context_manager
+from .llm_service import llm_service
 
 
 class ChatService:
     """
-    Chat service that uses the same indexed document corpus as questionnaires.
+    Intelligent chat service with advanced query understanding and multi-step reasoning.
     
-    Key Design Decisions:
-    1. Uses existing Layer 1 (answer index) for retrieval
-    2. Uses existing Layer 2 (citation index) for precise references
-    3. Operates independently - does NOT create projects or persist answers
-    4. No conflict with questionnaire workflows
+    Key Features:
+    1. Query analysis to understand intent and complexity
+    2. Multi-step reasoning for complex queries
+    3. Context-aware conversation handling
+    4. Answer verification and self-correction
+    5. Uses existing Layer 1 (answer index) and Layer 2 (citation index)
+    
+    Design:
+    - Operates independently - does NOT create projects or persist answers
+    - No conflict with questionnaire workflows
     """
     
     def __init__(self):
         self.vector_store = vector_store
+        self.query_analyzer = query_analyzer
+        self.reasoning_engine = reasoning_engine
+        self.context_manager = context_manager
+        self.llm_service = llm_service
     
     def generate_chat_response(
         self,
@@ -25,7 +38,7 @@ class ChatService:
         conversation_history: Optional[List[Dict[str, str]]] = None
     ) -> Dict[str, Any]:
         """
-        Generate a chat response using indexed documents.
+        Generate an intelligent chat response using advanced query understanding.
         
         Args:
             question: User's question
@@ -33,44 +46,94 @@ class ChatService:
             conversation_history: Previous conversation messages for context
         
         Returns:
-            Dict with answer, citations, confidence_score, relevant_chunks
+            Dict with answer, citations, confidence_score, relevant_chunks, and reasoning details
         """
-        # Step 1: Search Layer 1 (answer index) for relevant chunks
-        answer_results = self.vector_store.search_for_answer(
-            query=question,
-            document_ids=document_ids,
-            top_k=5
+        # Step 1: Prepare conversation context
+        context_info = self.context_manager.prepare_context(
+            current_query=question,
+            conversation_history=conversation_history
         )
         
-        if not answer_results:
+        # Check if clarification is needed
+        if context_info.get("needs_clarification", False):
             return {
-                "answer": "I don't have enough information in the indexed documents to answer this question.",
+                "answer": "I need more context to answer that question accurately. Could you please provide more details or rephrase your question?",
                 "citations": [],
                 "confidence_score": 0.0,
-                "relevant_chunks": 0
+                "relevant_chunks": 0,
+                "needs_clarification": True
             }
         
-        # Step 2: Generate answer from top chunks
-        answer_text = self._synthesize_answer(answer_results, question)
+        # Use augmented query (with resolved references)
+        augmented_query = context_info.get("augmented_query", question)
         
-        # Step 3: Search Layer 2 (citation index) for precise references
-        citation_results = self.vector_store.search_for_citations(
-            text=answer_text,
-            document_ids=document_ids,
-            top_k=10
+        # Step 2: Analyze the query
+        query_analysis = self.query_analyzer.analyze(
+            query=augmented_query,
+            conversation_history=conversation_history
         )
         
-        # Step 4: Build citations
-        citations = self._build_citations(citation_results)
+        # Step 3: Process query with reasoning engine
+        reasoning_result = self.reasoning_engine.process_query(
+            query=augmented_query,
+            query_analysis=query_analysis,
+            document_ids=document_ids,
+            conversation_history=conversation_history
+        )
         
-        # Step 5: Calculate confidence
-        confidence = self._calculate_confidence(answer_results)
+        # Step 4: Verify and self-correct answer if needed
+        final_answer = reasoning_result.get("final_answer", "")
+        sources = reasoning_result.get("sources", [])
         
+        # Extract source chunks for verification
+        source_chunks = []
+        if reasoning_result.get("reasoning_steps"):
+            for step in reasoning_result["reasoning_steps"]:
+                if step.get("step_type") == "retrieval":
+                    # Get chunks from reasoning steps
+                    pass  # Already included in reasoning
+        
+        # Perform verification if we have a substantial answer
+        if final_answer and len(final_answer) > 50:
+            # Get chunks for verification (search again with final answer)
+            verification_chunks = self.vector_store.search_for_answer(
+                query=augmented_query,
+                document_ids=document_ids,
+                top_k=5
+            )
+            
+            if verification_chunks:
+                verification_result = self.llm_service.verify_answer_against_sources(
+                    answer=final_answer,
+                    source_chunks=verification_chunks
+                )
+                
+                # Apply self-correction if verification failed
+                if not verification_result.get("is_verified", False):
+                    correction_result = self.llm_service.self_correct_answer(
+                        answer=final_answer,
+                        verification_result=verification_result,
+                        source_chunks=verification_chunks
+                    )
+                    
+                    if correction_result.get("corrected", False):
+                        final_answer = correction_result.get("answer", final_answer)
+                        # Add verification metadata
+                        reasoning_result["self_corrected"] = True
+                        reasoning_result["correction_notes"] = correction_result.get("correction_notes", "")
+        
+        # Step 5: Format response
         return {
-            "answer": answer_text,
-            "citations": citations,
-            "confidence_score": confidence,
-            "relevant_chunks": len(answer_results)
+            "answer": final_answer,
+            "citations": sources,
+            "confidence_score": reasoning_result.get("confidence", 0.0),
+            "relevant_chunks": reasoning_result.get("total_chunks_analyzed", 0),
+            "reasoning_type": reasoning_result.get("reasoning_type", "simple"),
+            "query_type": query_analysis.get("query_type"),
+            "complexity": query_analysis.get("complexity"),
+            "reasoning_steps": reasoning_result.get("reasoning_steps", []),
+            "context_used": context_info.get("has_references", False),
+            "needs_clarification": False
         }
     
     def _synthesize_answer(self, chunks: List[Dict], question: str) -> str:

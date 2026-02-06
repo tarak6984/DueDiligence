@@ -166,6 +166,160 @@ Answer:"""
         final_score = min(avg_score + source_boost + length_boost - model_penalty, 1.0)
         
         return max(final_score, 0.0)
+    
+    def verify_answer_against_sources(
+        self, 
+        answer: str, 
+        source_chunks: List[Dict[str, Any]]
+    ) -> Dict[str, Any]:
+        """
+        Verify answer claims against source chunks for self-correction.
+        
+        Returns verification result with supported/unsupported claims.
+        """
+        
+        if not answer or not source_chunks:
+            return {
+                "is_verified": False,
+                "verification_score": 0.0,
+                "supported_claims": 0,
+                "total_claims": 0,
+                "issues": ["Insufficient information for verification"]
+            }
+        
+        # Split answer into claims (sentences)
+        claims = [s.strip() for s in answer.split('.') if s.strip()]
+        total_claims = len(claims)
+        
+        supported_claims = 0
+        unsupported_claims = []
+        issues = []
+        
+        # Check each claim against sources
+        for claim in claims:
+            claim_lower = claim.lower()
+            claim_words = set(claim_lower.split())
+            
+            # Skip very short claims
+            if len(claim_words) < 3:
+                continue
+            
+            # Check if claim is supported by any chunk
+            is_supported = False
+            max_support_score = 0.0
+            
+            for chunk in source_chunks:
+                chunk_text = chunk.get("text", "").lower()
+                chunk_words = set(chunk_text.split())
+                
+                # Calculate support score
+                overlap = len(claim_words & chunk_words)
+                support_score = overlap / len(claim_words) if claim_words else 0.0
+                
+                # Check for exact phrase match (strong support)
+                if claim_lower in chunk_text:
+                    support_score = 1.0
+                
+                max_support_score = max(max_support_score, support_score)
+                
+                # Claim is supported if > 40% word overlap
+                if support_score >= 0.4:
+                    is_supported = True
+                    break
+            
+            if is_supported:
+                supported_claims += 1
+            else:
+                unsupported_claims.append({
+                    "claim": claim,
+                    "support_score": max_support_score
+                })
+        
+        # Calculate verification score
+        verification_score = supported_claims / total_claims if total_claims > 0 else 0.0
+        
+        # Determine if answer is verified
+        is_verified = verification_score >= 0.6  # 60% threshold
+        
+        # Add issues for unsupported claims
+        if unsupported_claims:
+            for uc in unsupported_claims[:3]:  # Top 3 issues
+                issues.append(f"Potentially unsupported claim: '{uc['claim'][:100]}...'")
+        
+        return {
+            "is_verified": is_verified,
+            "verification_score": round(verification_score, 2),
+            "supported_claims": supported_claims,
+            "total_claims": total_claims,
+            "unsupported_claims": unsupported_claims,
+            "issues": issues
+        }
+    
+    def self_correct_answer(
+        self,
+        answer: str,
+        verification_result: Dict[str, Any],
+        source_chunks: List[Dict[str, Any]]
+    ) -> Dict[str, Any]:
+        """
+        Apply self-correction to improve answer based on verification results.
+        
+        Returns corrected answer or original if verification passed.
+        """
+        
+        # If answer is well-verified, return as is
+        if verification_result.get("is_verified", False):
+            return {
+                "answer": answer,
+                "corrected": False,
+                "correction_notes": "Answer verified against sources"
+            }
+        
+        # If answer has issues, attempt correction
+        unsupported_claims = verification_result.get("unsupported_claims", [])
+        
+        if not unsupported_claims:
+            return {
+                "answer": answer,
+                "corrected": False,
+                "correction_notes": "No specific issues identified"
+            }
+        
+        # Remove unsupported claims with very low support scores
+        claims_to_keep = []
+        claims_removed = []
+        
+        for sentence in answer.split('.'):
+            sentence = sentence.strip()
+            if not sentence:
+                continue
+            
+            # Check if this is an unsupported claim
+            is_unsupported = any(
+                uc["claim"].strip() == sentence and uc["support_score"] < 0.2
+                for uc in unsupported_claims
+            )
+            
+            if not is_unsupported:
+                claims_to_keep.append(sentence)
+            else:
+                claims_removed.append(sentence[:50])
+        
+        # Reconstruct answer
+        corrected_answer = '. '.join(claims_to_keep)
+        if corrected_answer and not corrected_answer.endswith('.'):
+            corrected_answer += '.'
+        
+        # Add disclaimer if significant corrections made
+        if len(claims_removed) > 0:
+            corrected_answer += " [Note: Some claims could not be fully verified against the source documents.]"
+        
+        return {
+            "answer": corrected_answer if corrected_answer else answer,
+            "corrected": len(claims_removed) > 0,
+            "correction_notes": f"Removed {len(claims_removed)} unsupported claim(s)",
+            "claims_removed": claims_removed
+        }
 
 
 # Global LLM service instance
