@@ -10,5 +10,17 @@
     "keyword_overlap": 0.18181818181818182,
     "explanation": "Similarity quality: low. The answers appear to address different aspects or provide divergent information. Semantic similarity: 0.08, Keyword overlap: 0.18.",
     "created_at": "2026-02-05T08:07:27.515788"
+  },
+  "eval_d47645ea": {
+    "id": "eval_d47645ea",
+    "question_id": "q_58a4e3d0",
+    "project_id": "proj_b5436528",
+    "ai_answer": "Based on the available documentation: g of the Offer Shares or the distribution of this Prospectus in anyjurisdiction other than Hong Kong The distribution of this Prospectus and the offeringand sale of the Offer Shares in other jurisdict An investment in our Class A Ordinary Shares involves significant risks You should\ncarefully consider all of the information in this Prospectus, including the risks anduncertainties described below, b HSG\nHSG Growth VII Holdco E, Ltd and Himalia Holding Limited are companies\nincorporated in the Cayman Islands with limited liability The sole shareholder of HSGGrowth VII Holdco E, Ltd is HongShan Cap",
+    "human_answer": "The fund employs a growth equity strategy targeting technology companies in software and fintech sectors.",
+    "similarity_score": 0.12072727272727274,
+    "semantic_similarity": 0.08,
+    "keyword_overlap": 0.18181818181818182,
+    "explanation": "Similarity quality: low. The answers appear to address different aspects or provide divergent information. Semantic similarity: 0.08, Keyword overlap: 0.18.",
+    "created_at": "2026-02-06T09:44:21.779734+00:00"
   }
 }

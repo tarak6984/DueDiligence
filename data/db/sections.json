@@ -28,5 +28,35 @@
     "project_id": "proj_c760d99b",
     "title": "Operations & Compliance",
     "order": 5
+  },
+  "sec_0807016a": {
+    "id": "sec_0807016a",
+    "project_id": "proj_b5436528",
+    "title": "Investment Strategy & Objectives",
+    "order": 1
+  },
+  "sec_a33cc805": {
+    "id": "sec_a33cc805",
+    "project_id": "proj_b5436528",
+    "title": "Fund Structure & Terms",
+    "order": 2
+  },
+  "sec_e8940db8": {
+    "id": "sec_e8940db8",
+    "project_id": "proj_b5436528",
+    "title": "Team & Organization",
+    "order": 3
+  },
+  "sec_8dabd125": {
+    "id": "sec_8dabd125",
+    "project_id": "proj_b5436528",
+    "title": "Track Record & Performance",
+    "order": 4
+  },
+  "sec_26d7b041": {
+    "id": "sec_26d7b041",
+    "project_id": "proj_b5436528",
+    "title": "Operations & Compliance",
+    "order": 5
   }
 }

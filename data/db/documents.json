@@ -63,5 +63,70 @@
     "is_questionnaire": false,
     "uploaded_at": "2026-02-05T08:07:26.465012",
     "indexed_at": "2026-02-05T08:07:27.512240"
+  },
+  "doc_ce7b9cf6": {
+    "id": "doc_ce7b9cf6",
+    "name": "ILPA_Due_Diligence_Questionnaire_v1.2.pdf",
+    "file_type": "PDF",
+    "file_size": 639339,
+    "file_path": "data\\storage\\doc_ce7b9cf6.pdf",
+    "indexing_status": "PENDING",
+    "is_questionnaire": true,
+    "uploaded_at": "2026-02-06T09:42:49.792743+00:00"
+  },
+  "doc_357f3ddf": {
+    "id": "doc_357f3ddf",
+    "name": "20260110_MiniMax_Accountants_Report.pdf",
+    "file_type": "PDF",
+    "file_size": 430911,
+    "file_path": "data\\storage\\doc_357f3ddf.pdf",
+    "indexing_status": "INDEXED",
+    "is_questionnaire": false,
+    "uploaded_at": "2026-02-06T09:42:49.808957+00:00",
+    "indexed_at": "2026-02-06T09:42:51.044464+00:00"
+  },
+  "doc_b5e38ce3": {
+    "id": "doc_b5e38ce3",
+    "name": "20260110_MiniMax_Audited_Consolidated_Financial_Statements.pdf",
+    "file_type": "PDF",
+    "file_size": 12095433,
+    "file_path": "data\\storage\\doc_b5e38ce3.pdf",
+    "indexing_status": "INDEXED",
+    "is_questionnaire": false,
+    "uploaded_at": "2026-02-06T09:42:49.826454+00:00",
+    "indexed_at": "2026-02-06T09:44:00.963543+00:00"
+  },
+  "doc_3c79fbee": {
+    "id": "doc_3c79fbee",
+    "name": "20260110_MiniMax_Global_Offering_Prospectus.pdf",
+    "file_type": "PDF",
+    "file_size": 7203109,
+    "file_path": "data\\storage\\doc_3c79fbee.pdf",
+    "indexing_status": "INDEXED",
+    "is_questionnaire": false,
+    "uploaded_at": "2026-02-06T09:42:49.835570+00:00",
+    "indexed_at": "2026-02-06T09:44:08.423055+00:00"
+  },
+  "doc_4913dae8": {
+    "id": "doc_4913dae8",
+    "name": "20260110_MiniMax_Industry_Report.pdf",
+    "file_type": "PDF",
+    "file_size": 4884607,
+    "file_path": "data\\storage\\doc_4913dae8.pdf",
+    "indexing_status": "INDEXED",
+    "is_questionnaire": false,
+    "uploaded_at": "2026-02-06T09:42:49.856332+00:00",
+    "indexed_at": "2026-02-06T09:44:10.123118+00:00"
+  },
+  "doc_a2061f83": {
+    "id": "doc_a2061f83",
+    "name": "20260110_MiniMax_Accountants_Report.pdf",
+    "file_type": "PDF",
+    "file_size": 430911,
+    "file_path": "data\\storage\\doc_a2061f83.pdf",
+    "indexing_status": "INDEXED",
+    "is_questionnaire": false,
+    "uploaded_at": "2026-02-06T09:44:20.442812+00:00",
+    "indexed_at": "2026-02-06T09:44:21.772910+00:00"
   }
 }
