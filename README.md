@@ -3,8 +3,14 @@
 A full-stack AI-powered system for automating due diligence questionnaire responses with document indexing, citation tracking, and answer evaluation.
 
 ## 📸 Screenshots
+<img width="1919" height="1079" alt="image" src="https://github.com/user-attachments/assets/aca48eff-0475-4f4d-a699-9be4148fdf1b" />
+<img width="811" height="763" alt="image" src="https://github.com/user-attachments/assets/fbc7f9c0-3a89-4dc6-87f1-8e7f6d441222" />
+<img width="1919" height="1079" alt="image" src="https://github.com/user-attachments/assets/d449c42a-4c46-4786-a7d4-59c9e60995a5" />
+<img width="1919" height="1079" alt="image" src="https://github.com/user-attachments/assets/227a2fb5-31ff-42f5-b38e-127262be5086" />
 
-> Coming soon - UI screenshots will be added here.
+
+
+
 
 ---
 
