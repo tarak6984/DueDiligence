@@ -34,6 +34,7 @@ npm run dev                        # Start UI (http://localhost:5173)
 
 ## ✨ Features
 
+### Core Features
 - **Multi-Format Document Ingestion**: PDF, DOCX, XLSX, PPTX support
 - **Multi-Layer Indexing**: Separate indices for answer retrieval and precise citations
 - **Automated Answer Generation**: AI-powered responses with confidence scores
@@ -42,6 +43,14 @@ npm run dev                        # Start UI (http://localhost:5173)
 - **Evaluation Framework**: Compare AI answers against human ground truth
 - **Async Processing**: Background tasks with progress tracking
 - **Smart Status Management**: Projects auto-marked OUTDATED when documents change
+
+### 🧠 Enhanced Intelligent Chat System (NEW!)
+- **Advanced Query Analysis**: Automatically classifies query intent (factual, analytical, comparative, numerical, etc.) and assesses complexity
+- **Multi-Step Reasoning**: Breaks down complex queries into sub-questions for comprehensive answers
+- **Context-Aware Conversations**: Maintains conversation history and resolves references ("it", "this", "that")
+- **Answer Verification**: Validates responses against source documents with self-correction capabilities
+- **Semantic Re-ranking**: Enhanced retrieval with phrase matching and relevance scoring
+- **Reasoning Transparency**: Shows step-by-step reasoning process with confidence scores
 
 ## 📋 System Architecture
 
@@ -64,6 +73,12 @@ Backend (FastAPI + Python)
 - **[docs/FUNCTIONAL_DESIGN.md](docs/FUNCTIONAL_DESIGN.md)** - User flows and API behaviors
 - **[docs/TESTING.md](docs/TESTING.md)** - Test plan, QA checklist, and metrics
 - **[DOCUMENTATION_STATUS.md](DOCUMENTATION_STATUS.md)** - Requirements compliance report
+
+### Intelligent Chat System 🆕
+The enhanced chat system includes:
+- **Query Analyzer** (`backend/src/services/query_analyzer.py`) - 8 query types, complexity assessment, entity extraction
+- **Reasoning Engine** (`backend/src/services/reasoning_engine.py`) - Multi-step reasoning, sub-question decomposition
+- **Context Manager** (`backend/src/services/context_manager.py`) - Conversation history, reference resolution
 
 ### Additional Resources
 - **[data/](./data)** - Sample PDFs for testing
@@ -115,6 +130,16 @@ Review Answer → Confirm/Reject/Edit → Preserve Original for Comparison
 Compare AI vs Human → Calculate Similarity → Generate Explanation
 ```
 
+### 6. Intelligent Chat 🆕
+```
+User Query → Context Analysis → Query Understanding → Multi-Step Reasoning → Answer Verification → Response
+```
+- Analyzes query intent and complexity
+- Resolves references from conversation history
+- Breaks down complex questions into sub-questions
+- Verifies answers against sources
+- Provides reasoning transparency
+
 ## 🛠️ Technology Stack
 
 **Backend**
@@ -142,9 +167,10 @@ Compare AI vs Human → Calculate Similarity → Generate Explanation
 | **Answers** | `POST /generate-single-answer/{id}`<br>`POST /generate-all-answers/{id}`<br>`POST /update-answer/{id}`<br>`GET /get-answer/{id}`<br>`GET /list/{project_id}` | Generate and manage answers with citations |
 | **Documents** | `POST /upload`<br>`POST /index-document-async/{id}`<br>`GET /list`<br>`GET /get-document/{id}`<br>`GET /download/{id}`<br>`DELETE /delete/{id}` | Upload, index, view, and manage documents |
 | **Evaluation** | `POST /evaluate-answer`<br>`POST /evaluate-project/{id}`<br>`GET /get-report/{id}` | Compare AI vs human answers with metrics |
+| **Chat** 🆕 | `POST /chat/ask`<br>`GET /chat/health` | Intelligent chat with query analysis, reasoning, and context awareness |
 | **Requests** | `GET /get-request-status/{id}` | Track async operation progress |
 
-**Total: 22 REST API endpoints**
+**Total: 24 REST API endpoints**
 
 📖 **Interactive API Docs:** http://localhost:8000/docs (Swagger UI)
 
@@ -225,6 +251,13 @@ Compare AI vs Human → Calculate Similarity → Generate Explanation
 - ✅ Toast notifications system
 - ✅ Document viewing in browser
 - ✅ Drag-and-drop file uploads
+- ✅ **Enhanced Intelligent Chat System** 🆕
+  - Advanced query analysis (8 query types, 4 complexity levels)
+  - Multi-step reasoning engine
+  - Context-aware conversation management
+  - Reference resolution (pronouns, ambiguous terms)
+  - Answer verification and self-correction
+  - Semantic re-ranking with enhanced scoring
 
 ## 🔮 Future Enhancements
 
@@ -298,12 +331,12 @@ Use semantic commit messages:
 
 ## 📈 Project Stats
 
-- **22 REST API Endpoints** - Comprehensive API coverage
+- **24 REST API Endpoints** - Comprehensive API coverage (including intelligent chat)
 - **58 QA Test Items** - Thorough testing checklist
-- **7 Core Modules** - Well-organized architecture
+- **10 Core Modules** - Well-organized architecture (+ 3 new intelligent chat modules)
 - **4 Documentation Files** - Complete documentation
 - **5 Sample PDFs** - Real-world test data
-- **100% Requirements Met** - All specs implemented
+- **100% Requirements Met** - All specs implemented + Enhanced AI capabilities
 
 ## 🐛 Known Issues & Limitations
 
